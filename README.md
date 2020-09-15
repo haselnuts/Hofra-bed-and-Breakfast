@@ -1,2 +1,2 @@
 # Hofra-Bed-Breakfast
-My first milestone project: A website for my friends business
+My first milestone project: A business webside for Hofra Bed & Breakfast
