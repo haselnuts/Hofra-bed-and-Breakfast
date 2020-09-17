@@ -4,7 +4,8 @@ body {
     font-family: 'Maven Pro', sans-serif;
 }
 
-.logo {}
+.logo {
+}
 
 .logo-img {
     background: url("../images/logo.png") no-repeat;
@@ -12,16 +13,3 @@ body {
     background-position: center;
     height: 8vh;
     }
-
-h1 {
-    text-align: center;
-}
-
-.nav {
-    color: #84898C;
-}
-
-.recension {
-    text-align: center;
-}
-
