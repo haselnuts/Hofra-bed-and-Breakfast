@@ -1,0 +1,15 @@
+body {
+    background-color: #FCFAFA;
+    color: #84898C;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.logo {
+}
+
+.logo-img {
+    background: url("../images/logo.png") no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 8vh;
+    }
