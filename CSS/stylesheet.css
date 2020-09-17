@@ -1,9 +1,22 @@
-body {background-color: #FCFAFA;}
+body {
+    background-color: #FCFAFA;
+    color: #84898C;
+    font-family: 'Maven Pro', sans-serif;
+}
 
 .logo {
     text-align: center;
 }
 
-.welcome {
+h1 {
     text-align: center;
 }
+
+.nav {
+    color: #84898C;
+}
+
+.recension {
+    text-align: center;
+}
+
