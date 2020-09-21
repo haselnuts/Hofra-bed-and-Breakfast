@@ -4,12 +4,13 @@ body {
     font-family: 'Maven Pro', sans-serif;
 }
 
-.logo {}
+.header-logo {}
 
-.logo-img {
+.header-logo-img {
     background: url("../images/logo.png") no-repeat;
     background-size: contain;
     background-position: center;
+    margin-top: 10px;
     height: 8vh;
     }
 
@@ -17,7 +18,7 @@ h1 {
     text-align: center;
 }
 
-.nav {
+.nav-link {
     color: #84898C;
 }
 
