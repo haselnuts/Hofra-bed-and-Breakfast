@@ -6,36 +6,49 @@
     <title>Välkommen</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Maven+Pro&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/stylesheet.css" type="text/css">
 </head>
 <body>
-<!--Logo-->
-<div class="container-fluid header-logo-img">&nbsp;
-    <a href="valkommen.html"></a>
-</div>
-<!--/Logo-->
+
+<header>
+    <!--Logo-->
+    <div class="container-fluid header-logo">&nbsp;
+        <a href="index.html"></a>
+    </div>
+    <!--/Logo-->
+</header>
 
 <!--Navbar-->
-<nav class="navbar navbar-expand-sm">
-    <ul class="nav justify-content-center">
-    <li class="nav-item">
-        <a class="nav-link active" href="#">Välkommen</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">Våra rum</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">Festlogen</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">Upptäck Dellenbygde</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">Kontakt</a>
-    </li>
-    </ul>
-</nav>
+<section class="container">
+    <div class="row nav-info-size-xs"> 
+        <div class="col-4">
+            <i class="fa fa-phone"></i> 070-256 80 30
+        </div>
+
+        <div class="col-4">
+            <i class="fa fa-envelope-o"></i> info@hofra.se
+        </div>
+
+        <div class="col-4">
+            <div class="dropdown show">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Menu
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="index.html">Välkommen</a>
+                    <a class="dropdown-item" href="vara-rum.html">Våra rum</a>
+                    <a class="dropdown-item" href="festlogen.html">Festlogen</a>
+                    <a class="dropdown-item" href="upptack-dellebygden">Upptäck Dellenbygden</a>
+                    <a class="dropdown-item" href="kontakt.html">Kontakt</a>
+                </div>
+            </div>
+        </div>
+    </div>        
+</section>
+<!--/Navbar-->
 
 </body>
 </html>
