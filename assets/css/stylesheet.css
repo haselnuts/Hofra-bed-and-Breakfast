@@ -1,36 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Maven+Pro:wght@400;500&display=swap');
+
+<-------------------Body------------------->
 
 body {
     background-color: #FCFAFA;
     color: #84898C;
     font-family: 'Maven Pro', sans-serif;
-}
-
-.header {}
-
-.header-logo {
-    background: url("../images/logo.png") no-repeat;
-    background-size: contain;
-    background-position: center;
-    margin-top: 10px;
-    min-height: 8vh;
-   }
-
-.navbar {}
-
-.nav-info-size-xs {
-    font-size: 0.7rem;
+    font-weight: 400;
 }
 
 h1 {
     text-align: center;
 }
 
-.nav-link {
+
+<-------------------Header------------------->
+
+.header-logo {
+    background: url("../images/logo.png") no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 10px;
+    min-height: 15vh;
+}
+
+<-------------------Navbar------------------->
+
+.navbar li {
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.navbar-font-color {
     color: #84898C;
 }
 
-.recension {
-    text-align: center;
+.navbar a:hover {
+    color: #84898C;
+    font-weight: 500;
 }
+
+.navbar-info-size-xs {
+    font-size: 0.7rem;
+}
+
+
+
+
+
+
 
