@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Maven+Pro:wght@400;500&display=swap');
 
-<-------------------Body------------------->
+/*---------------------------------------Body*/
 
 body {
     background-color: #FCFAFA;
@@ -14,7 +14,7 @@ h1 {
 }
 
 
-<-------------------Header------------------->
+/*---------------------------------------Header*/
 
 .header {
     min-height: auto;
@@ -28,9 +28,9 @@ h1 {
     min-height: 15vh;
 }
 
-<-------------------Navigation------------------->
+/*---------------------------------------Navigation*/
 
-.nav li {
+.nav-item {
     margin-right: 50px;
     font-size: 20px;
 }
@@ -44,12 +44,26 @@ h1 {
     font-weight: 500;
 }
 
-.nav-info-size-xs {
+nav .nav-font-size {
     font-size: 0.7rem;
 }
 
+.button {
+    float: 
+}
 
+nav .button-border {
+    border-color: #84898C;
+}
 
+nav .button-size {
+    padding: 2px 10px 2px 10px;
+}
+
+nav .button-size-text {
+    height: 20px;
+    width: 20px;
+ }
 
 
 
