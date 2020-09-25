@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Välkommen</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/stylesheet.css" type="text/css">
 </head>
@@ -21,26 +20,52 @@
 
 <!--Navbar-->
 
-<nav>  
-    <ul class="nav justify-content-center">
-        <li class="nav-item">
-            <a class="nav-link active nav-font-color" href="index.html">Välkommen</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link nav-font-color" href="vara-rum.html">Våra rum</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link nav-font-color" href="festlogen.html">Festlogen</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link nav-font-color" href="upptack-dellenbygden.html">Upptäck Dellenbygden</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link nav-font-color" href="kontakt.html">Kontakt</a>
-        </li>
-    </ul>   
+<nav class="navbar-expand-sm"> 
+    <div class="collapse navbar-collapse d-sm-block d-md-block justify-content-center" id="navbarNavDropdown">
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link active nav-font-color" href="index.html">Välkommen</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-font-color" href="vara-rum.html" target="_blank">Våra rum</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-font-color" href="festlogen.html" target="_blank">Festlogen</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-font-color" href="upptack-dellenbygden.html" target="_blank">Upptäck Dellenbygden</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-font-color" href="kontakt.html" target="_blank">Kontakt</a>
+            </li>
+        </ul> 
+    </div>
+
+    <div class="row d-block d-sm-none"> 
+        <div class="col-4 nav-font-size">
+            <i class="fa fa-phone"></i> 070-256 80 30
+        </div>
+
+        <div class="col-4 nav-font-size">
+            <i class="fa fa-envelope-o"></i> info@hofra.se
+        </div>
+
+        <div class="col-4 button">
+            <button class="button-size navbar-toggler navbar-light button-border" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon button-size-text"></span>
+            </button>
+        </div>
+    </div>  
 </nav>
+
+
+
+
 <!--/Navbar-->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
 </body>
 </html>
