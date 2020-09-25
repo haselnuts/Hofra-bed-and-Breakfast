@@ -2,43 +2,68 @@
 <html lang="sv">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Välkommen</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Maven+Pro&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="stylesheet-test.css" type="text/css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/stylesheet.css" type="text/css">
 </head>
 <body>
-<!--Logo-->
-    <div class="logo-img">&nbsp;
-        <a href="valkommen.html"></a>
+
+<header>
+    <!--Logo-->
+    <div class="container-fluid header-logo">&nbsp;
+        <a href="index.html"></a>
+    </div>
+    <!--/Logo-->
+</header>
+
+<!--Navbar-->
+
+<nav class="navbar navbar-expand-sm">  
+    <div class="collapse navbar-collapse d-block d-md-block" id="#navbarNavDropdown">
+        <ul class="nav justify-content-center navbar">
+            <li class="nav-item">
+                <a class="nav-link active navbar-font-color" href="index.html">Välkommen</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link navbar-font-color" href="vara-rum.html">Våra rum</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link navbar-font-color" href="festlogen.html">Festlogen</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link navbar-font-color" href="upptack-dellenbygden.html">Upptäck Dellenbygden</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link navbar-font-color" href="kontakt.html">Kontakt</a>
+            </li>
+        </ul>
     </div>
 
-<!--Navigation bar-->
-    <nav>    
-         <div>
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link active" href="valkommen.html">Välkommen</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="vara-rum.html">Våra rum</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="festlogen.html">Festlogen</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="upplev-dellenbygden.html">Upplev Dellenbygden</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="kontakt-html">Kontakt</a>
-                </li>
-            </ul>
+    <div class="row navbar-info-size-mobile d-block d-sm-none"> 
+        <div class="col-4">
+            <i class="fa fa-phone"></i> 070-256 80 30
         </div>
-    </nav>
 
-   
+        <div class="col-4">
+            <i class="fa fa-envelope-o"></i> info@hofra.se
+        </div>
 
- 
+        <div class="col-4">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </div>
+    
+</nav>
+<!--/Navbar-->
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
 </body>
 </html>
