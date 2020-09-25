@@ -16,6 +16,10 @@ h1 {
 
 <-------------------Header------------------->
 
+.header {
+    min-height: auto;
+}
+
 .header-logo {
     background: url("../images/logo.png") no-repeat;
     background-size: contain;
@@ -24,23 +28,23 @@ h1 {
     min-height: 15vh;
 }
 
-<-------------------Navbar------------------->
+<-------------------Navigation------------------->
 
-.navbar li {
+.nav li {
     margin-right: 50px;
     font-size: 20px;
 }
 
-.navbar-font-color {
+.nav-font-color {
     color: #84898C;
 }
 
-.navbar a:hover {
+.nav a:hover {
     color: #84898C;
     font-weight: 500;
 }
 
-.navbar-info-size-xs {
+.nav-info-size-xs {
     font-size: 0.7rem;
 }
 
