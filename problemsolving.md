@@ -32,7 +32,7 @@
 
 # Navigation bar
 
-    Navigation bar used from Bootstrap "Navs" 
+## Navigation bar used from Bootstrap "Navs" 
     When adding class= "Navbar", to add my own class name, the navigation items jumped from center to left side. After checking Bootstrap I noticed that Bootstrap is using this for its "Navbar's".
     Removed the class in total.
 
@@ -42,3 +42,11 @@
     Jim Morel, Slack username: JimLynx_lead, and I had a short call to fix the issue but I run out of credits on Gitpod. Issue still alive.
 
     Issue solved by changing the comment in stylesheet.css from <--- ---> to /* */.
+
+## Navigation bar on smaller screen don't get horizontal
+
+    Tried with flexbox but no response. Tried to cut the div outside the <nav> but still no response.
+    Ask Slack for help. Anthony O'Brien, Slack username: Anthony(finsishedCourse, stillJinja) and I had a live call in Slack.
+    The issue seemed to be that bootstrap for some reason added a padding in the column line so it used the whole width of the row.
+    The solution was to move the classes d-block and d-sm-none from .row to .col-4 line.
+
