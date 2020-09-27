@@ -28,12 +28,20 @@ h1 {
     min-height: 15vh;
 }
 
+ @media only screen and (max-width: 576px) {
+    .header-logo {
+        min-height: 10vh;
+    }
+}
+
+ @media only screen and (max-width: 320px) {
+    .header-logo {
+        min-height: 7vh;
+    }
+}
+
 /*---------------------------------------Navigation*/
 
-.nav-item {
-    margin-right: 50px;
-    font-size: 20px;
-}
 
 .nav-font-color {
     color: #84898C;
@@ -44,14 +52,15 @@ h1 {
     font-weight: 500;
 }
 
-nav .nav-font-size {
-    font-size: 0.7rem;
+nav .col-5:first-child {
+    padding-right: 0px;
+    margin-left: 0px;
+    padding-left: 30px;
 }
 
-.button {
-    float: 
+nav .row {
+    align-items: center;
 }
-
 nav .button-border {
     border-color: #84898C;
 }
@@ -64,6 +73,34 @@ nav .button-size-text {
     height: 20px;
     width: 20px;
  }
+
+ button {
+     float: right;
+     margin-right: 10px;
+     
+ }
+
+@media only screen and (max-width: 576px) {
+    nav .nav-font-size {
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+.nav-item .nav-font-color {
+    margin-right: 50px;
+    font-size: 20px;
+    color: #84898C;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+.nav-item .nav-font-color {
+    margin-right: 20px;
+    font-size: 15px;
+    color: #84898C;
+    }
+}
 
 
 
