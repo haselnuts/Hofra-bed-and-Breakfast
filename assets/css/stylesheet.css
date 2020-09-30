@@ -36,7 +36,7 @@ h1 {
 
 .nav-item .nav-font-color {
     margin-right: 40px;
-    font-size: 14px;
+    font-size: 15px;
     color: #84898C;
     }
 
@@ -45,15 +45,23 @@ h1 {
     font-weight: 500;
 }
 
-nav .col-5:first-child {
-    padding-right: 0px;
-    margin-left: 0px;
-    padding-left: 30px;
-    }
-
 nav .row {
     align-items: center;
 }
+nav .col-5:first-child {
+    padding-right: 0px;
+    margin-left: 0px;
+    }
+
+nav .col-5:nth-child(2) {
+    padding-left: 0px;
+    }    
+
+nav .nav-font-size {
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
 nav .button-border {
     border-color: #84898C;
 }
@@ -73,15 +81,26 @@ button {
      
  }
 
+/*--------------------Hero Image*/
+
+.hero-image {
+    background: url("../images/hero-image-valkommen.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 600px;
+    
+}
+
  /*--------------------Responsive Design*/
 
-/* @media only screen and (max-width: 1200px )  {
-    .nav-item .nav-font-color {
-        margin-right: 30px;
-        font-size: 14px;
-        color: #84898C;
+@media only screen and (max-width: 1200px )  {
+    .hero-image {
+        height: 400px;
     }
-} */
+}
 
 @media only screen and (max-width: 768px) {
     .nav-item .nav-font-color {
@@ -91,21 +110,16 @@ button {
     }
     .header-logo {
         min-height: 12vh;
+    }
 }
 
 @media only screen and (max-width: 576px) {
-    nav .nav-font-size {
-        font-size: 0.7rem;
-    }
     .header-logo {
         min-height: 10vh;
     }
 }
 
 @media only screen and (max-width: 320px) {
-        nav .nav-font-size {
-        font-size: 0.7rem;
-    }
     .header-logo {
         min-height: 7vh;
     }
