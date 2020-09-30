@@ -34,10 +34,9 @@ h1 {
    color: #84898C;
 }
 
-.nav-item .nav-font-color {
+.nav-item {
     margin-right: 40px;
-    font-size: 15px;
-    color: #84898C;
+    font-size: 20px;
     }
 
 .nav a:hover {
@@ -88,8 +87,10 @@ button {
     background-size: cover;
     background-position: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-end;
+    margin-top: 10px;
+    padding: 0;
     height: 600px;
     
 }
@@ -100,16 +101,23 @@ button {
     .hero-image {
         height: 400px;
     }
+    .nav-item {
+        font-size: 15px;
+        margin-right: 20px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
-    .nav-item .nav-font-color {
-        margin-right: 20px;
+    .nav-item {
+        margin-right: 10px;
         font-size: 12px;
-        color: #84898C;
     }
     .header-logo {
         min-height: 12vh;
+    }
+    .hero-image {
+        max-height: 300px;
+        margin-top: 10px;
     }
 }
 
@@ -117,11 +125,33 @@ button {
     .header-logo {
         min-height: 10vh;
     }
+    .hero-image {
+        max-height: 150px;
+        margin-top: 10px;
+    }
+    .nav-item {
+        font-size: 0.7rem;
+        margin-right: 2px;
+    }
+    ul .nav {
+        justify-content: flex-end;
+    }
 }
 
 @media only screen and (max-width: 320px) {
     .header-logo {
         min-height: 7vh;
+    }
+    .hero-image {
+        max-height: 100px;
+        margin-top: 10px;
+    }
+    .nav-item {
+        font-size: 0.7rem;
+        margin-right: 2px;
+    }
+     ul .nav {
+        justify-content: flex-end;
     }
 }
 
