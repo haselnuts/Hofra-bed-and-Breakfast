@@ -4,7 +4,7 @@
 
 body {
     background-color: #FCFAFA;
-    color: #84898C;
+    color: #435159;
     font-family: 'Maven Pro', sans-serif;
     font-weight: 400;
 }
@@ -31,7 +31,8 @@ h1 {
 /*---------------------------------------Navigation*/
 
 .nav-font-color {
-   color: #84898C;
+   color: #435159;
+   font-weight: 300;
 }
 
 .nav-item {
@@ -40,7 +41,7 @@ h1 {
     }
 
 .nav a:hover {
-    color: #84898C;
+    color: #435159;
     font-weight: 500;
 }
 
@@ -57,8 +58,8 @@ nav .col-5:nth-child(2) {
     }    
 
 nav .nav-font-size {
-        font-size: 0.7rem;
-        text-align: center;
+    font-size: 0.7rem;
+    text-align: center;
     }
 
 nav .button-border {
@@ -77,7 +78,45 @@ button {
      
  }
 
-/*--------------------Hero Image for the different features*/
+/*--------------------Footer*/
+
+.footer-color {
+    background-color: #F2F2F2;
+    color: #435159;
+    font-weight: 400;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.footer-logo {
+    background: url("../images/logo.png") no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.col-9 .row {
+    display: flex;
+    justify-content: center;
+}
+
+.col-3 {
+    padding-top: 1rem;
+    }
+
+.col-3 a {
+    color:#435159;
+}
+
+.col-3 a:hover {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.fa-facebook {
+    padding-right: 2%;
+}
+
+/*--------------------Hero Images for the different features*/
 
 .hero-image-welcome {
     background: url("../images/hero-image-valkommen.jpg") no-repeat;
