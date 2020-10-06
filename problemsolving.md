@@ -50,3 +50,8 @@
     The issue seemed to be that bootstrap for some reason added a padding in the column line so it used the whole width of the row.
     The solution was to move the classes d-block and d-sm-none from .row to .col-4 line.
 
+# Hero Image Welcome
+
+## hero-image-welcome was not responsive
+    To seperate the hero images for the different features I added the welcome to the class hero-image-welcome. I did change the class in the stylesheet but not for the responsive design.
+    The solution was to correct all hero-image classes.
