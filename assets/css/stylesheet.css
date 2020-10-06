@@ -58,7 +58,7 @@ nav .col-5:nth-child(2) {
     }    
 
 nav .nav-font-size {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     text-align: center;
     }
 
@@ -78,6 +78,21 @@ button {
      
  }
 
+ /*--------------------Hero Images for the different features*/
+
+.hero-image-welcome {
+    background: url("../images/hero-image-valkommen.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 10px;
+    padding: 0;
+    height: 600px;
+    
+}
+
 /*--------------------Footer*/
 
 .footer-color {
@@ -94,20 +109,21 @@ button {
     background-position: center;
 }
 
-.col-9 .row {
+.col-md-9 .col-sm .row {
     display: flex;
     justify-content: center;
 }
 
-.col-3 {
+.footer-contact {
     padding-top: 1rem;
+    font-size: 20px;
     }
 
-.col-3 a {
+.footer-contact-call a {
     color:#435159;
 }
 
-.col-3 a:hover {
+.footer-contact-call a:hover {
     text-decoration: none;
     font-weight: 500;
 }
@@ -116,30 +132,18 @@ button {
     padding-right: 2%;
 }
 
-/*--------------------Hero Images for the different features*/
-
-.hero-image-welcome {
-    background: url("../images/hero-image-valkommen.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-top: 10px;
-    padding: 0;
-    height: 600px;
-    
-}
-
  /*--------------------Responsive Design*/
 
 @media only screen and (max-width: 1200px )  {
-    .hero-image {
+    .hero-image-welcome {
         height: 400px;
     }
     .nav-item {
         font-size: 15px;
         margin-right: 20px;
+    }
+    .footer-contact {
+        font-size: 17px;
     }
 }
 
@@ -155,13 +159,17 @@ button {
         max-height: 300px;
         margin-top: 10px;
     }
+
+    .footer-logo {
+        height: 10vh;
+    }
 }
 
 @media only screen and (max-width: 576px) {
     .header-logo {
         min-height: 10vh;
     }
-    .hero-image {
+    .hero-image-welcome {
         max-height: 150px;
         margin-top: 10px;
     }
@@ -177,15 +185,32 @@ button {
         padding-top: 5px;
         padding-bottom: 2px;
     }
+
+    .footer-logo {
+        height: 8vh;
+    }
 }
 
 @media only screen and (max-width: 320px) {
     .header-logo {
         min-height: 7vh;
     }
-    .hero-image {
+
+    nav .nav-font-size {
+        font-size: 0.6rem;
+    }
+
+    .hero-image-welcome {
         max-height: 100px;
         margin-top: 10px;
+    }
+
+    .footer-logo {
+        height: 5vh;
+    }
+
+    .footer-contact {
+        font-size: 1rem;
     }
 }
 
