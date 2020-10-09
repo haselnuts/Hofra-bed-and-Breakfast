@@ -61,14 +61,19 @@ nav .col-5:nth-child(2) {
     padding-left: 0px;
     }    
 
-nav .nav-font-size {
+nav .nav-contact-sm {
     font-size: 0.9rem;
     text-align: center;
     }
 
-nav .nav-font-size i,
-nav .nav-font-size a {
+nav .nav-contact-sm i,
+nav .nav-contact-sm a {
     color: #435159;
+    }
+
+nav .nav-contact-sm a:hover {
+    text-decoration: none;
+    font-weight: 500;
 }
 
 nav .button-border {
@@ -152,18 +157,12 @@ button {
 
 .footer-contact-social i {
     color:#435159;
-    transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
+    }
 
-/* .footer-contact-social i:hover {
+.footer-contact-social i:hover {
     text-decoration: none;
     font-weight: 500;
-} */
-
-
+}
 
  /*--------------------Responsive Design*/
 
@@ -228,6 +227,7 @@ button {
     }
     .footer-contact {
          text-align: center;
+         font-size: 0.8rem;
     }
 
     .footer-contact-social p {
@@ -240,11 +240,6 @@ button {
         min-height: 7vh;
     }
 
-    nav .nav-font-size i,
-    nav .nav-font-size a {
-        font-size: 0.8rem;
-    }
-
     .hero-image-welcome {
         max-height: 100px;
         margin-top: 10px;
@@ -255,7 +250,7 @@ button {
     }
 
     .footer-contact {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
        }
 
     .footer-contact-social {
