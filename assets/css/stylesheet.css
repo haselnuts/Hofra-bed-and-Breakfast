@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Maven+Pro:wght@400;500&display=swap');
 
-/*---------------------------------------Body*/
+/*---------------------------------------General*/
 
 body {
     background-color: #FCFAFA;
@@ -15,10 +15,6 @@ h1 {
 
 
 /*---------------------------------------Header*/
-
-.header {
-    min-height: auto;
-}
 
 .header-logo {
     background: url("../images/logo.png") no-repeat;
@@ -37,8 +33,15 @@ h1 {
 
 .nav-item {
     margin-right: 40px;
-    font-size: 20px;
+    font-size: 1.5rem;
     }
+
+.nav a {
+    transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
 
 .nav a:hover {
     color: #435159;
@@ -95,7 +98,7 @@ button {
 
 /*--------------------Footer*/
 
-.footer-color {
+.footer {
     background-color: #F2F2F2;
     color: #435159;
     font-weight: 400;
@@ -116,11 +119,15 @@ button {
 
 .footer-contact {
     padding-top: 1rem;
-    font-size: 20px;
+    font-size: 1rem;
     }
 
 .footer-contact-call a {
     color:#435159;
+    transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .footer-contact-call a:hover {
@@ -128,9 +135,29 @@ button {
     font-weight: 500;
 }
 
+.footer-contact-social p {
+    margin-bottom: 5px;
+}
+
 .fa-facebook {
+    padding-left: 1.5%;
     padding-right: 2%;
 }
+
+.footer-contact-social i {
+    color:#435159;
+    transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+/* .footer-contact-social i:hover {
+    text-decoration: none;
+    font-weight: 500;
+} */
+
+
 
  /*--------------------Responsive Design*/
 
@@ -139,18 +166,18 @@ button {
         height: 400px;
     }
     .nav-item {
-        font-size: 15px;
+        font-size: 1.2rem;
         margin-right: 20px;
     }
     .footer-contact {
-        font-size: 17px;
+        font-size: 1rem;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .nav-item {
         margin-right: 10px;
-        font-size: 12px;
+        font-size: 0.9rem;
     }
     .header-logo {
         min-height: 12vh;
@@ -162,6 +189,10 @@ button {
 
     .footer-logo {
         height: 10vh;
+    }
+
+    .footer-contact {
+        font-size: 0.9rem
     }
 }
 
@@ -189,6 +220,9 @@ button {
     .footer-logo {
         height: 8vh;
     }
+    .footer-contact {
+         text-align: center;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -197,7 +231,7 @@ button {
     }
 
     nav .nav-font-size {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
 
     .hero-image-welcome {
@@ -210,7 +244,10 @@ button {
     }
 
     .footer-contact {
-        font-size: 1rem;
+        font-size: 0.8rem;
+       }
+    .footer-contact-social {
+        margin-top: 15px;
     }
 }
 
