@@ -1,7 +1,8 @@
 # logo-img
-    Position not centered
 
-    valkommen.html
+## Position not centered
+
+    index.html
     <div>
         <a href="valkommen.html">
             <img class="logo-img" src="./image/logo.png" alt="Hofra B&B Breakfast">
@@ -17,18 +18,34 @@
 
     Result after research thru old repositories, Google and testing
 
-    valkommen.html
+    index.html
     <div class="logo-img">&nbsp;
         <a href="valkommen.html"></a>
     </div>
 
     stylesheet.css
-    .logo-img {
-        background: url("../images/logo.png") no-repeat;
+    .header-logo {
+        background: url("../images/logo.png");
+        background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
-        height: 8vh;
+        margin-top: 10px;
+        min-height: 14vh;
     }
+
+## Logo image link to index.html not working
+
+    The link to the index.html was not working at all
+    index.html
+    <div class="logo-img">&nbsp;
+        <a href="valkommen.html"></a>
+    </div>
+
+    The code was changed to after checking with Slack, Jim Morel, Slack username: JimLynx_lead, and it works fine. Changed also the code in the footer.
+
+    <a href="index.html">
+        <div class="container-fluid header-logo">&nbsp;</div>
+    </a> 
 
 # Navigation bar
 
