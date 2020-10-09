@@ -17,7 +17,8 @@ h1 {
 /*---------------------------------------Header*/
 
 .header-logo {
-    background: url("../images/logo.png") no-repeat;
+    background: url("../images/logo.png");
+    background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
     margin-top: 10px;
@@ -64,6 +65,11 @@ nav .nav-font-size {
     font-size: 0.9rem;
     text-align: center;
     }
+
+nav .nav-font-size i,
+nav .nav-font-size a {
+    color: #435159;
+}
 
 nav .button-border {
     border-color: #84898C;
@@ -223,6 +229,10 @@ button {
     .footer-contact {
          text-align: center;
     }
+
+    .footer-contact-social p {
+        padding-top: 1rem;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -230,7 +240,8 @@ button {
         min-height: 7vh;
     }
 
-    nav .nav-font-size {
+    nav .nav-font-size i,
+    nav .nav-font-size a {
         font-size: 0.8rem;
     }
 
@@ -246,6 +257,7 @@ button {
     .footer-contact {
         font-size: 0.8rem;
        }
+
     .footer-contact-social {
         margin-top: 15px;
     }
