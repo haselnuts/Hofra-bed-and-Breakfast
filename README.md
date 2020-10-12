@@ -1,12 +1,5 @@
-# Hofra-Bed-Breakfast
-My first milestone project: A business webside for Hofra Bed & Breakfast
+<h1 align="center">
+    <a href="https://github.com/haselnuts/Hofra-Bed-Breakfast" target="_blank"><img src="assets/images/logo.png"></a>
+</h1>
 
-#Header
 
-#Contact-header-mobile
-
-Icons dowloaded from "https://www.flaticon.com/"
-Phone
-Email
-
-#Navbar
