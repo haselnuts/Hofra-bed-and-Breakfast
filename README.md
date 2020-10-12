@@ -1,5 +1,5 @@
 <h1 align="center">
-    https://github.com/haselnuts/Hofra-Bed-Breakfast" target="_blank"><img src="assets/images/logo.png"></a>
+    <a>https://github.com/haselnuts/Hofra-Bed-Breakfast" target="_blank"><img src="assets/images/logo.png"></a>
 </h1><a href="
 
 <div align="center">
