@@ -29,7 +29,7 @@ h1 {
 
 .nav-font-color {
    color: #435159;
-   font-weight: 300;
+   font-weight: 400;
 }
 
 .nav-item {
@@ -45,8 +45,8 @@ h1 {
 }
 
 .nav a:hover {
-    color: #435159;
-    font-weight: 500;
+    color: #ae5d57;
+    font-weight: 400;
 }
 
 nav .row {
@@ -74,6 +74,7 @@ nav .nav-contact-sm a {
 nav .nav-contact-sm a:hover {
     text-decoration: none;
     font-weight: 500;
+    color: #ae5d57;
 }
 
 nav .button-border {
@@ -95,7 +96,7 @@ button {
  /*--------------------Hero Images for the different features*/
 
 .hero-image-welcome {
-    background: url("../images/hero-image-valkommen.jpg") no-repeat;
+    background: url("../images/hero-image-welcome.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -104,7 +105,54 @@ button {
     margin-top: 10px;
     padding: 0;
     height: 600px;
-    
+}
+
+.hero-image-ourrums {
+    background: url("../images/hero-image-ourrums.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 10px;
+    padding: 0;
+    height: 600px;
+}
+
+.hero-image-festivitybarn {
+    background: url("../images/hero-image-festivitybarn.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 10px;
+    padding: 0;
+    height: 600px;
+}
+
+.hero-image-discoverdellenbygden {
+    background: url("../images/hero-image-discoverdellenbygden.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 10px;
+    padding: 0;
+    height: 600px;
+}
+
+.hero-image-contact {
+    background: url("../images/hero-image-contact.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 10px;
+    padding: 0;
+    height: 600px;
 }
 
 /*--------------------Footer*/
@@ -121,6 +169,7 @@ button {
     background: url("../images/logo.png") no-repeat;
     background-size: contain;
     background-position: center;
+    height: 10vh;
 }
 
 .col-md-9 .col-sm .row {
@@ -133,6 +182,20 @@ button {
     font-size: 1rem;
     }
 
+.footer-contact-address {
+    color:#435159;
+    transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.footer-contact a:hover {
+    text-decoration: none;
+    font-weight: 400;
+    color: #ae5d57;
+}
+
 .footer-contact-call a {
     color:#435159;
     transition: all 0.35s ease-in-out;
@@ -143,7 +206,8 @@ button {
 
 .footer-contact-call a:hover {
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 400;
+    color: #ae5d57;
 }
 
 .footer-contact-social p {
@@ -151,23 +215,32 @@ button {
 }
 
 .fa-facebook {
-    padding-left: 1.5%;
+    text-align: center;
     padding-right: 2%;
 }
 
 .footer-contact-social i {
     color:#435159;
-    }
+    transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
 
 .footer-contact-social i:hover {
     text-decoration: none;
     font-weight: 500;
+    color: #ae5d57;
 }
 
  /*--------------------Responsive Design*/
 
 @media only screen and (max-width: 1200px )  {
-    .hero-image-welcome {
+    .hero-image-welcome,
+    .hero-image-ourrums,
+    .hero-image-festivitybarn,
+    .hero-image-discoverdellenbygden,
+    .hero-image-contact {
         height: 400px;
     }
     .nav-item {
@@ -187,13 +260,13 @@ button {
     .header-logo {
         min-height: 12vh;
     }
-    .hero-image {
+    .hero-image-welcome,
+    .hero-image-ourrums,
+    .hero-image-festivitybarn,
+    .hero-image-discoverdellenbygden,
+    .hero-image-contact {
         max-height: 300px;
         margin-top: 10px;
-    }
-
-    .footer-logo {
-        height: 10vh;
     }
 
     .footer-contact {
@@ -205,7 +278,11 @@ button {
     .header-logo {
         min-height: 10vh;
     }
-    .hero-image-welcome {
+    .hero-image-welcome,
+    .hero-image-ourrums,
+    .hero-image-festivitybarn,
+    .hero-image-discoverdellenbygden,
+    .hero-image-contact {
         max-height: 150px;
         margin-top: 10px;
     }
@@ -240,7 +317,11 @@ button {
         min-height: 7vh;
     }
 
-    .hero-image-welcome {
+    .hero-image-welcome,
+    .hero-image-ourrums,
+    .hero-image-festivitybarn,
+    .hero-image-discoverdellenbygden,
+    .hero-image-contact {
         max-height: 100px;
         margin-top: 10px;
     }
