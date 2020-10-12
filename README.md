@@ -1,9 +1,9 @@
 <h1 align="center">
-    <a href="https://github.com/haselnuts/Hofra-Bed-Breakfast" target="_blank"><img src="assets/images/logo.png"></a>
-</h1>
+    https://github.com/haselnuts/Hofra-Bed-Breakfast" target="_blank"><img src="assets/images/logo.png"></a>
+</h1><a href="
 
 <div align="center">
-    [View website in Github pages] (https://github.com/haselnuts/Hofra-Bed-Breakfast)
+    <a href="https://github.com/haselnuts/Hofra-Bed-Breakfast" target="_blank">View website in Github pages</a>
 </div>
 
 A genuine website for my friends traditional Hofra Bed & Breakfast. The website features what Hofra Bed & Breakfast stands for, a view into the rums and the barn, 
