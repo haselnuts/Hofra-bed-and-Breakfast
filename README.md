@@ -6,32 +6,34 @@
     <a href="https://github.com/haselnuts/Hofra-Bed-Breakfast" target="_blank">View website in Github pages</a>
 </div>
 
-A genuine website for my friends traditional Hofra Bed & Breakfast. The website features what Hofra Bed & Breakfast stands for, a view into the rums and the barn, 
-what you could do if staying longer and how to book and where to find the Hofra B&B.
+A genuine website for my friends traditional Hofra Bed & Breakfast. The website features a welcoming page, information
+ on the rums, the barn, intresting destinations and inviting images.
 
-This website will be the first ever website I coded. My friends gave me the opportunity to code their website. There will be changes to this website in the future along with my learning process. 
+This website will be the first and my friends gave me the opportunity to code the website for their first business. There will be changes to this website in the future along with my learning process. 
 I'm very excited and nervous at the same time. My biggest fear is this readme file.
 
 The business goals of this website are<br>
-*People want to stay at Hofra Bed & Breakfast<br>
-*To celebrate their important days in life<br>
-*Experience a Hälsingegård and it's surroundings
+*Provide information of the different branches of Hofra Bed & Breakfast<br>
+*Provide intresting destination near by<br>
+*Provide warm and inviting images<br>
 
 Customer goals of this website<br>
-*Searching for a genuine place to sleep on their way through Sweden<br>
-*Searching for an intresting place to celebrate their important days in life<br>
-*An easy way to find information and booking
-
+*Guest shall feel welcomed<br>
+*Easy to get in contact and book<br>
 
 Future goals and features<br>
 *A monthly income for one of the owners<br>
 *Get companies to have their conferences at Hofra Bed & Breakfast<br>
-*Open the smaller barn for smaller events
+*Hälsingland shall be the guest final destination
 
 
+<h2>UX</h2>
+### The ideal guest for this business is:
+*Wants to stay without any distractions<br>
+*Likes 
 
-*Welcome
-*Our rums
-*The barn
-*Experience Dellen and it's surroundings
-*Contact
+Visitors to this website are searching for:
+*Intresting place to stay<br>
+*A different place to celebrate their important days in live<br>
+
+Wireframes mochup:
