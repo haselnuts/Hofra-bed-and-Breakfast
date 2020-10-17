@@ -14,57 +14,132 @@ This website will be the first and my friends gave me the opportunity to code th
 There will be changes to this website in the future along with my learning process. 
 I'm very excited and nervous at the same time. My biggest fear is this readme file.
 
-The business goals of this website are
-- Provide information of the different branches
+#### The business goals of this website are
+- Provide information of the different features
 - Provide intresting destination near by
 - Provide warm and inviting images
 
-Customer goals of this website
+#### Customer goals of this website
 - Guest shall feel welcomed
-- Pinpoint information on each branch
-- Easy to get in contact and book
+- Pinpoint information on each feature
+- Easy to find contact information
 
-Future goals and features
+#### Future goals and features
 - Get companies to have their conferences at Hofra Bed & Breakfast
 - Hälsingland shall be the guest's final destination/ for ever home
 
-
 ## UX
-### The ideal guest for this business is:
+#### The ideal guest for this business is:
 - Wants to stay without any distractions
 - mmmm
 
-### Visitors to this website are searching for:
+#### Visitors to this website are searching for:
 - Intresting place to stay
 - A different place to celebrate their important days in live
 
-### Wireframes mockups:
+#### Wireframes mockups:
 - [Welcome](https://www.figma.com/file/MBrPn6xwBuE9RgPheqxibW/Hofra-Bed-%26-Breakfast?node-id=0%3A1)
 - [Our rums](https://www.figma.com/file/MBrPn6xwBuE9RgPheqxibW/Hofra-Bed-%26-Breakfast?node-id=42%3A45)
 - [The barn](https://www.figma.com/file/MBrPn6xwBuE9RgPheqxibW/Hofra-Bed-%26-Breakfast?node-id=2%3A24)
 - [Discover Dellenbygden](https://www.figma.com/file/MBrPn6xwBuE9RgPheqxibW/Hofra-Bed-%26-Breakfast?node-id=2%3A25)
 - [Contact](https://www.figma.com/file/MBrPn6xwBuE9RgPheqxibW/Hofra-Bed-%26-Breakfast?node-id=110%3A0)
 
-
-
 ## Features
-Each page features a **logo**, uncoventionaly placed on top of the page and a responsive **navigation bar**.
-Each page has a **footer** with '**adress** linking to the address on Google maps and **social media icons** linking to B&B's social media pages. 
+Each page features a **logo**, placed above all context, a responsive **navigation bar** and a **footer**.
+The **footer** features an **address** linking to Google maps, **telephone number and e-mail** with a click to call function and 
+**social media icons** linking to B&B's 2 social media pages. 
 
-Each page features its own **hero image** after the navigation bar, showing  
+Each page features its own **hero image**.
 
-### Welcome
-mmmm
+#### Welcome
+The page features a **hero image** of the inside of the courtyard, a warm welcome to Hofra Bed & Breakfast, **hero images**
+ of the 3 **main features** with a link to each page and some thoughts from previous guests. 
 
-### Our rums
-mmmm
+#### Our rums
+The page features a **hero image** of the suite, a description of the house, service, addtional fees and a **call to contact button**
+which guides the visitor to the contact page. 
 
-### The barn
-mmmm
+Each rum is featured with one **hero image** and a short description of the rum.
 
-### Discover Dellenbygden
-mmmm
+#### The barn
+The page features a **hero image** showing styled tables ready for the festivity, a description of the barn, packages and prices, 
+addtional fees, a gallery and a **call to contact button** which guides the potential guest to the contact page. 
 
-### Contact
-mmm
+#### Discover Dellenbygden
+The page features a **hero image** of a destination to visit, the aim of the page and 3 section. The 3 sections are diveded into
+ **yearly recurrent events**, **destinations** and **Hiking**.
+
+#### Contact
+The page features a **hero image** birds-eye view of the farm, **contact informations**, a **map** linking to Google maps and a 
+**contact form** with a **send button**
+
+### Existing features
+**Logo** - Exists in the header and the footer of **every page** and allows the potential guest to easily navigate back 
+to the **Welcome** page by clicking on it.
+
+**Navigation Bar** - Exists on **every page** and allows the potential guest to navigate thru the website's pages and find 
+what they are looking.
+
+**Hero Image** – Exists on **every page** and allows the potential guest to get a feeling for their stay.
+
+**Social Icons** - Exist on **every page** and allows the potential guest to access the **social platforms**.
+
+**Call to Contact Button** - Exist on **every page** and guides the potential guest to the **contact page**.
+
+**Welcome page** – Allows the potential guest to view what Hofra Bed & Breakfast offers.
+
+**Our Rums page** – Allows the potential guest to view the rums, services and pricing.
+
+**The Barn page** – Allows the potential guest to view the different areas, packages and pricing.
+
+**Discover Dellenbygden** – Allows the potential guest to plan their activities and gives them a heads up on interesting 
+events nearby.
+
+**Contact Form** - Allows potential guest to get in contact.
+
+### Features to Implement in future
+**Slide show** of the hero image on each page. – additional Javascrip knowledge needed.
+**Fonts** Hofra Bed & Breakfast wants to use different fonts, those were not available at this time but are similar to the 
+current fonts.
+**Second barn** a feature for the much smaller barn will be added to The barn page. The renovation was not finished. This barn 
+could be used for smaller gatherings.
+
+## Technoligies used
+- This project uses HTML and CSS programming languages.
+- **BootstrapCDN**
+  - This project uses **Bootstrap 4.2.1** to simplify the structure and the overall responsive design of the website.
+  - This project uses **Boootstrap JS** for the responsive navbar.
+  - This project uses **Bootstrap CDN** for **FontAwsome** icons.
+- **Google Fonts**
+  - This project uses **[Google Fonts](https://fonts.google.com/)** to style the website fonts.
+- **Pinetools**
+  - This project uses **[Pintools](https://pinetools.com/image-color-picker)** an Online Image Color Picker to look for colour 
+  which match the theme of the PowerPoint presentation provided by Jenny Gustafsson.
+- **TinyPNG**
+  - This project uses **[TinyPNG](https://tinypng.com/)** to reduce the size of the images used on this website.
+
+## Problem solving
+- Problem solving information can be found in seperate 
+**[problemsolving.md file](https://github.com/haselnuts/Hofra-Bed-Breakfast/blob/master/problemsolving.md)**.
+
+## Testing
+
+## Deployment
+  1. Log into GitHub.
+  2. From the list of repositories select **haselnuts/Hofr-Bed-Breakfast**.
+  3. From the menu items below the navigation bar, select **Settings**.
+  4. Scoll down to **GitHub pages**.
+  5. Under **Source** click the dropdown menu labelled **None** and select **Master**.
+  6. When selecting **Save** ....
+  7.
+
+## Credits
+#### Content
+The original text was in swedish and provided by Jenny Gustafsson. Translation into english was done by...
+
+#### Media
+All photos used on this website were provided by Jenny Gustafsson and Per Brodén.
+The hero image for the Discover Dellenbygden page was provided by Nadine Schmidt, the developer of this website.
+
+### Acknowledgements
 
