@@ -101,7 +101,7 @@ events nearby.
 **Slide show** of the hero image on each page. – additional Javascrip knowledge needed.
 **Fonts** Hofra Bed & Breakfast wants to use different fonts, those were not available at this time but are similar to the 
 current fonts.
-**Second barn** a feature for the much smaller barn will be added to The barn page. The renovation was not finished. This barn 
+**Second barn** a feature for the much smaller barn will be added to The barn page. The smaller barn was not part of the original wireframe. This barn 
 could be used for smaller gatherings.
 
 ## Technoligies used
