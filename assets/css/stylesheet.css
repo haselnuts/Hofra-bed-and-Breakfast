@@ -5,12 +5,16 @@
 body {
     background-color: #FCFAFA;
     color: #435159;
-    font-family: 'Maven Pro', sans-serif;
+    font-family: "Maven Pro", sans-serif;
     font-weight: 400;
 }
 
 h1 {
-    text-align: center;
+    font-family: "Dancing Script", sans-serif;
+    text-align: center;   
+    font-size: 6.4rem;
+    font-weight: 700;
+    margin-top: 50px;
 }
 
 
@@ -101,10 +105,9 @@ button {
     background-position: center;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
     margin-top: 10px;
     padding: 0;
-    height: 600px;
+    height: 650px;
 }
 
 .hero-image-ourrums {
@@ -113,10 +116,9 @@ button {
     background-position: center;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
     margin-top: 10px;
     padding: 0;
-    height: 600px;
+    height: 650px;
 }
 
 .hero-image-festivitybarn {
@@ -125,10 +127,9 @@ button {
     background-position: center;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
     margin-top: 10px;
     padding: 0;
-    height: 600px;
+    height: 650px;
 }
 
 .hero-image-discoverdellenbygden {
@@ -137,10 +138,9 @@ button {
     background-position: center;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
     margin-top: 10px;
     padding: 0;
-    height: 600px;
+    height: 650px;
 }
 
 .hero-image-contact {
@@ -149,10 +149,9 @@ button {
     background-position: center;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
     margin-top: 10px;
     padding: 0;
-    height: 600px;
+    height: 650px;
 }
 
 /*--------------------Footer*/
@@ -241,11 +240,16 @@ button {
     .hero-image-festivitybarn,
     .hero-image-discoverdellenbygden,
     .hero-image-contact {
-        height: 400px;
+        height: 450px;
     }
     .nav-item {
         font-size: 1.2rem;
         margin-right: 20px;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+        margin-top: 30px;
     }
     .footer-contact {
         font-size: 1rem;
@@ -265,12 +269,16 @@ button {
     .hero-image-festivitybarn,
     .hero-image-discoverdellenbygden,
     .hero-image-contact {
-        max-height: 300px;
+        max-height: 350px;
         margin-top: 10px;
     }
 
+    h1 {
+        font-size: 2.5rem;
+    }
+
     .footer-contact {
-        font-size: 0.9rem
+        font-size: 0.9rem;
     }
 }
 
@@ -283,7 +291,7 @@ button {
     .hero-image-festivitybarn,
     .hero-image-discoverdellenbygden,
     .hero-image-contact {
-        max-height: 150px;
+        max-height: 200px;
         margin-top: 10px;
     }
     .nav-item {
@@ -299,6 +307,11 @@ button {
         padding-bottom: 2px;
     }
 
+    h1 {
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+
     .footer-logo {
         height: 8vh;
     }
@@ -309,6 +322,10 @@ button {
 
     .footer-contact-social p {
         padding-top: 1rem;
+    }
+
+    .col-2 {
+        padding-right: 0;
     }
 }
 
@@ -322,7 +339,7 @@ button {
     .hero-image-festivitybarn,
     .hero-image-discoverdellenbygden,
     .hero-image-contact {
-        max-height: 100px;
+        max-height: 150px;
         margin-top: 10px;
     }
 
