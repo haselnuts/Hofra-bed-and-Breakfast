@@ -12,7 +12,7 @@ body {
 h1 {
     font-family: "Dancing Script", sans-serif;
     text-align: center;   
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 700;
     margin-top: 50px;
 }
@@ -20,14 +20,17 @@ h1 {
 h2 {
     font-family: "Dancing Script", sans-serif;
     text-align: center;   
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 700;
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .intro p {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     padding-top: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
 } 
 
 /*---------------------------------------Header*/
@@ -123,7 +126,7 @@ button {
 }
 
 .hero-image-ourrums {
-    background: url("../images/hero-image-ourrums.jpg") no-repeat;
+    background: url("../images/hero-image-our-rums.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -133,8 +136,8 @@ button {
     height: 650px;
 }
 
-.hero-image-festivitybarn {
-    background: url("../images/hero-image-festivitybarn.jpg") no-repeat;
+.hero-image-the-barn {
+    background: url("../images/hero-image-the-barn.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -145,7 +148,7 @@ button {
 }
 
 .hero-image-discoverdellenbygden {
-    background: url("../images/hero-image-discoverdellenbygden.jpg") no-repeat;
+    background: url("../images/hero-image-discover-dellenbygden.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -170,19 +173,42 @@ button {
 
 .features {
     padding-top: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.feature-vara-rum {
+    background: url("../images/hero-image-our-rums.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    padding: 0;
+    min-height: 300px;
+    margin-bottom: 40px
 }
 
 .feature-the-barn {
-    background: url("../images/feature-the-barn.jpg") no-repeat;
+    background: url("../images/hero-image-the-barn.jpg") no-repeat;
     background-size: cover;
     background-position: center;
-    display: flex;
-    flex-direction: row;
     margin-top: 10px;
     padding: 0;
-    height: 400px;
-    width: 100%;
+    min-height: 300px;
     margin-bottom: 40px
+}
+
+.feature-discover-dellenbygden {
+    background: url("../images/hero-image-discover-dellenbygden.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    padding: 0;
+    min-height: 300px;
+    margin-bottom: 40px
+}
+
+.col-4 {
+    background-color: #F2F2F2;
 }
 
 
@@ -266,21 +292,22 @@ button {
 
  /*--------------------Responsive Design*/
 
-@media only screen and (max-width: 1200px )  {
+ @media only screen and (max-width: 1200px )  {
     .hero-image-welcome,
     .hero-image-ourrums,
-    .hero-image-festivitybarn,
+    .hero-image-the-barn,
     .hero-image-discoverdellenbygden,
     .hero-image-contact {
         height: 450px;
     }
+
     .nav-item {
         font-size: 1.2rem;
         margin-right: 20px;
     }
 
     h1 {
-        font-size: 3.5rem;
+        font-size: 2.0rem;
         margin-top: 30px;
     }
     .footer-contact {
@@ -298,7 +325,7 @@ button {
     }
     .hero-image-welcome,
     .hero-image-ourrums,
-    .hero-image-festivitybarn,
+    .hero-image-the-barn,
     .hero-image-discoverdellenbygden,
     .hero-image-contact {
         max-height: 350px;
@@ -320,7 +347,7 @@ button {
     }
     .hero-image-welcome,
     .hero-image-ourrums,
-    .hero-image-festivitybarn,
+    .hero-image-the-barn,
     .hero-image-discoverdellenbygden,
     .hero-image-contact {
         max-height: 200px;
@@ -368,7 +395,7 @@ button {
 
     .hero-image-welcome,
     .hero-image-ourrums,
-    .hero-image-festivitybarn,
+    .hero-image-the-barn,
     .hero-image-discoverdellenbygden,
     .hero-image-contact {
         max-height: 150px;
