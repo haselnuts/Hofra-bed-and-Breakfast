@@ -15,7 +15,7 @@ There will be changes to this website in the future along with my learning proce
 I'm very excited and nervous at the same time. My biggest fear is this readme file.
 
 #### The business goals of this website are
-- Provide information of the different features
+- Provide information about the different features
 - Provide intresting destination near by
 - Provide warm and inviting images
 
@@ -35,7 +35,8 @@ I'm very excited and nervous at the same time. My biggest fear is this readme fi
 
 #### Visitors to this website are searching for:
 - Intresting place to stay
-- A different place to celebrate their important days in live
+- A different place to celebrate their important day in live
+- Finding activities during their stay
 
 #### Wireframes mockups:
 - [Welcome](https://www.figma.com/file/MBrPn6xwBuE9RgPheqxibW/Hofra-Bed-%26-Breakfast?node-id=0%3A1)
@@ -45,32 +46,34 @@ I'm very excited and nervous at the same time. My biggest fear is this readme fi
 - [Contact](https://www.figma.com/file/MBrPn6xwBuE9RgPheqxibW/Hofra-Bed-%26-Breakfast?node-id=110%3A0)
 
 ## Features
-Each page features a **logo**, placed above all context, a responsive **navigation bar** and a **footer**.
+Each page features the buisness **logo**, placed above all context, a responsive **navigation bar** and a **footer**.
 The **footer** features an **address** linking to Google maps, **telephone number and e-mail** with a click to call function and 
 **social media icons** linking to B&B's 2 social media pages. 
 
-Each page features its own **hero image**.
+Each page features its own welcoming **hero image**.
+
+On **mobile devices** a button **to the top** will be appearing on the botton of each page.
 
 #### Welcome
 The page features a **hero image** of the inside of the courtyard, a warm welcome to Hofra Bed & Breakfast, **hero images**
- of the 3 **main features** with a link to each page and some thoughts from previous guests. 
+ of the 3 **main features** with a link to each page and some reviews from guests. 
 
 #### Our rums
-The page features a **hero image** of the suite, a description of the house, service, addtional fees and a **call to contact button**
+The page features a **hero image** of the suite, a description of the house, service, addtional fees and a **call to action button**
 which guides the visitor to the contact page. 
 
-Each rum is featured with one **hero image** and a short description of the rum.
+Each rum is featured with one **hero image** and a short description of the rum. When clicking on the hero image a **modal** opens with more images.
 
 #### The barn
 The page features a **hero image** showing styled tables ready for the festivity, a description of the barn, packages and prices, 
-addtional fees, a gallery and a **call to contact button** which guides the potential guest to the contact page. 
+addtional fees, a gallery and a **call to action button** which guides the potential guest to the contact page. 
 
 #### Discover Dellenbygden
 The page features a **hero image** of a destination to visit, the aim of the page and 3 section. The 3 sections are diveded into
- **yearly recurrent events**, **destinations** and **Hiking**.
+ **yearly recurrent events**, **destinations** and **hiking**.
 
 #### Contact
-The page features a **hero image** birds-eye view of the farm, **contact informations**, a **map** linking to Google maps and a 
+The page features a **hero image** birds-eye view of the farm, **contact informations**, a **map** linking to Google maps, travel description by bus and car and a 
 **contact form** with a **send button**
 
 ### Existing features
@@ -84,7 +87,7 @@ what they are looking.
 
 **Social Icons** - Exist on **every page** and allows the potential guest to access the **social platforms**.
 
-**Call to Contact Button** - Exist on **every page** and guides the potential guest to the **contact page**.
+**Call to Action Button** - Exist on on **Our rums** and **The barn** pages and guides the potential guest to the **contact page**.
 
 **Welcome page** – Allows the potential guest to view what Hofra Bed & Breakfast offers.
 
