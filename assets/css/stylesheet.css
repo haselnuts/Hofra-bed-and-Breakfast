@@ -15,6 +15,7 @@ h1 {
     font-size: 4rem;
     font-weight: 700;
     margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 h2 {
@@ -27,11 +28,15 @@ h2 {
 }
 
 .intro p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding-top: 20px;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
 } 
+
+.intro-ending {
+    margin-bottom: 70px
+}
 
 /*---------------------------------------Header*/
 
@@ -120,9 +125,9 @@ button {
     background-position: center;
     display: flex;
     flex-direction: row;
-    margin-top: 10px;
     padding: 0;
-    height: 650px;
+    margin-bottom: 70px;
+    height: 700px;
 }
 
 .hero-image-ourrums {
@@ -131,9 +136,9 @@ button {
     background-position: center;
     display: flex;
     flex-direction: row;
-    margin-top: 10px;
     padding: 0;
-    height: 650px;
+    margin-bottom: 70px;
+    height: 700px;
 }
 
 .hero-image-the-barn {
@@ -142,9 +147,9 @@ button {
     background-position: center;
     display: flex;
     flex-direction: row;
-    margin-top: 10px;
     padding: 0;
-    height: 650px;
+    margin-bottom: 70px;
+    height: 700px;
 }
 
 .hero-image-discoverdellenbygden {
@@ -153,9 +158,9 @@ button {
     background-position: center;
     display: flex;
     flex-direction: row;
-    margin-top: 10px;
     padding: 0;
-    height: 650px;
+    margin-bottom: 70px;
+    height: 700px;
 }
 
 .hero-image-contact {
@@ -164,20 +169,20 @@ button {
     background-position: center;
     display: flex;
     flex-direction: row;
-    margin-top: 10px;
     padding: 0;
-    height: 650px;
+    margin-bottom: 70px;
+    height: 700px;
 }
 
 /*--------------------Features*/
 
 .features {
-    padding-top: 30px;
     margin-left: 3%;
     margin-right: 3%;
+    box-shadow: 2px 2px 5px #435159;;
 }
 
-.feature-vara-rum {
+.feature-our-rums {
     background: url("../images/hero-image-our-rums.jpg") no-repeat;
     background-size: cover;
     background-position: center;
@@ -207,7 +212,7 @@ button {
     margin-bottom: 40px
 }
 
-.col-4 {
+.col-md-3 {
     background-color: #F2F2F2;
 }
 
@@ -296,7 +301,7 @@ button {
     .hero-image-welcome,
     .hero-image-ourrums,
     .hero-image-the-barn,
-    .hero-image-discoverdellenbygden,
+    .hero-image-discover-dellenbygden,
     .hero-image-contact {
         height: 450px;
     }
@@ -310,6 +315,9 @@ button {
         font-size: 2.0rem;
         margin-top: 30px;
     }
+
+    
+
     .footer-contact {
         font-size: 1rem;
     }
@@ -334,6 +342,12 @@ button {
 
     h1 {
         font-size: 2.5rem;
+    }
+
+    .feature-our-rums,
+    .feature-the-barn,
+    .feature-discover-dellenbygden {
+        min-height: 200px;
     }
 
     .footer-contact {
