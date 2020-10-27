@@ -14,24 +14,24 @@ h1 {
     text-align: center;   
     font-size: 4rem;
     font-weight: 700;
-    margin-top: 50px;
-    margin-bottom: 30px;
-}
+    margin-top: 40px;
+    }
 
 h2 {
     font-family: "Dancing Script", sans-serif;
     text-align: center;   
     font-size: 2.5rem;
     font-weight: 700;
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
+    line-height: 3;
+    }
 
 .intro p {
     font-size: 1.3rem;
+    font-weight: 400;
     padding-top: 20px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
 } 
 
 .intro-ending {
@@ -126,7 +126,6 @@ button {
     display: flex;
     flex-direction: row;
     padding: 0;
-    margin-bottom: 70px;
     height: 700px;
 }
 
@@ -137,7 +136,6 @@ button {
     display: flex;
     flex-direction: row;
     padding: 0;
-    margin-bottom: 70px;
     height: 700px;
 }
 
@@ -148,7 +146,6 @@ button {
     display: flex;
     flex-direction: row;
     padding: 0;
-    margin-bottom: 70px;
     height: 700px;
 }
 
@@ -159,7 +156,6 @@ button {
     display: flex;
     flex-direction: row;
     padding: 0;
-    margin-bottom: 70px;
     height: 700px;
 }
 
@@ -170,15 +166,14 @@ button {
     display: flex;
     flex-direction: row;
     padding: 0;
-    margin-bottom: 70px;
     height: 700px;
 }
 
 /*--------------------Features*/
 
 .features {
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .feature-our-rums {
@@ -211,7 +206,7 @@ button {
     margin-bottom: 40px
 }
 
-.col-md-3 {
+.col-xl-3 {
     background-color: #F2F2F2;
     box-shadow: 2px 2px 5px #435159;
 }
@@ -222,8 +217,8 @@ button {
     background: url("../images/quotes-girl.jpg") no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100px;
-    width: 100px;
+    max-height: 100px;
+    min-width: 100px;
     border-radius: 50%;
 }
 
@@ -231,12 +226,16 @@ button {
     background: url("../images/quotes-guy.jpg") no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100px;
-    width: 100px;
+    max-height: 100px;
+    min-width: 100px;
     border-radius: 50%;
 }
 
-.col-md-6 {
+.quotes .row {
+    margin: 0;
+}
+
+.col-lg-6 {
     display: flex;
     flex-wrap: nowrap;
 }
@@ -336,18 +335,22 @@ button {
     }
 
     h1 {
-        font-size: 2.0rem;
-        margin-top: 30px;
+        font-size: 3rem;
+    }
+
+    .features div:first-child,
+    .features div:nth-child(2) {
+        margin-bottom: 100px;
     }
 
     .quotes {
-        margin: 100px;
-}
+        margin: 10%;
+    }    
 
     blockquote {
-    margin-top: 20px;
+    margin: 0 0 2rem;
     padding-left: 20px;
-}
+    }
     
 
     .footer-contact {
@@ -382,17 +385,13 @@ button {
 
     .intro p {
     font-size: 1rem;
-    padding-top: 20px;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
+    }
+   
     .feature-our-rums,
     .feature-the-barn,
     .feature-dellenbygden {
-        min-height: 150px;
+        min-height: 300px;
     }
-
 
     .footer-contact {
         font-size: 0.9rem;
@@ -424,18 +423,34 @@ button {
         padding-bottom: 2px;
     }
 
-    h1 {
-        font-size: 1.5rem;
-        margin-top: 20px;
+    .intro p {
+    text-align: center;
     }
 
-    .features div {
-        margin-bottom: 50px;
+    .intro-ending {
+    margin-bottom: 50px 
     }
 
+    .feature-our-rums,
+    .feature-the-barn,
+    .feature-dellenbygden {
+        min-height: 150px;
+    }
+
+   .quotes {
+        margin: 5%;
+    } 
+
+    .quotes-girl,
+    .quotes-guy {
+        max-height: 80px;
+        min-width: 80px;
+    }   
+    
     .footer-logo {
         height: 8vh;
     }
+
     .footer-contact {
          text-align: center;
          font-size: 0.8rem;
@@ -444,17 +459,10 @@ button {
     .footer-contact-social p {
         padding-top: 1rem;
     }
-
-    .col-2 {
-        padding-right: 0;
-    }
 }
 
-@media only screen and (max-width: 320px) {
-    .header-logo {
-        min-height: 7vh;
-    }
-
+@media only screen and (max-width: 375px) {
+   
     .hero-image-welcome,
     .hero-image-ourrums,
     .hero-image-the-barn,
@@ -464,17 +472,9 @@ button {
         margin-top: 10px;
     }
 
-    .footer-logo {
-        height: 5vh;
-    }
-
-    .footer-contact {
-        font-size: 0.7rem;
-       }
-
-    .footer-contact-social {
-        margin-top: 15px;
-    }
+     h1 {
+        font-size: 1.8rem;
+        }
 }
 
 
