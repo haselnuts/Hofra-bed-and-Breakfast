@@ -216,15 +216,10 @@ button {
     box-shadow: 2px 2px 5px #435159;
 }
 
-/*--------------------Review*/
+/*--------------------Quotes*/
 
-.review {
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-.review-girl {
-    background: url("../images/review-girl.jpg") no-repeat;
+.quotes-girl {
+    background: url("../images/quotes-girl.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 100px;
@@ -232,8 +227,8 @@ button {
     border-radius: 50%;
 }
 
-.review-guy{
-    background: url("../images/review-guy.jpg") no-repeat;
+.quotes-guy{
+    background: url("../images/quotes-guy.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 100px;
@@ -241,10 +236,9 @@ button {
     border-radius: 50%;
 }
 
-img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+.col-md-6 {
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 /*--------------------Footer*/
@@ -345,6 +339,15 @@ img {
         font-size: 2.0rem;
         margin-top: 30px;
     }
+
+    .quotes {
+        margin: 100px;
+}
+
+    blockquote {
+    margin-top: 20px;
+    padding-left: 20px;
+}
     
 
     .footer-contact {
@@ -389,6 +392,7 @@ img {
     .feature-dellenbygden {
         min-height: 150px;
     }
+
 
     .footer-contact {
         font-size: 0.9rem;
