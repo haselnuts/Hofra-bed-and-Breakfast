@@ -35,7 +35,7 @@ h2 {
 } 
 
 .intro-ending {
-    margin-bottom: 70px
+    margin-bottom: 100px
 }
 
 /*---------------------------------------Header*/
@@ -117,7 +117,7 @@ button {
      
  }
 
- /*--------------------Hero Images for the different features*/
+ /*--------------------Hero Images*/
 
 .hero-image-welcome {
     background: url("../images/hero-image-welcome.jpg") no-repeat;
@@ -213,9 +213,33 @@ button {
 
 .col-md-3 {
     background-color: #F2F2F2;
-     box-shadow: 2px 2px 5px #435159;
+    box-shadow: 2px 2px 5px #435159;
 }
 
+/*--------------------Review*/
+
+.review {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.review-girl {
+    background: url("../images/review-girl.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.review-guy{
+    background: url("../images/review-guy.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
 
 /*--------------------Footer*/
 
