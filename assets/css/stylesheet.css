@@ -22,7 +22,7 @@ h2 {
     text-align: center;   
     font-size: 2.5rem;
     font-weight: 700;
-    line-height: 3;
+    line-height: 2;
     }
 
 .intro p {
@@ -172,8 +172,7 @@ button {
 /*--------------------Features*/
 
 .features {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0;
 }
 
 .feature-our-rums {
@@ -182,8 +181,8 @@ button {
     background-position: center;
     margin-top: 10px;
     padding: 0;
-    min-height: 300px;
-    margin-bottom: 40px
+    min-height: 250px;
+    margin-bottom: 80px
 }
 
 .feature-the-barn {
@@ -192,8 +191,8 @@ button {
     background-position: center;
     margin-top: 10px;
     padding: 0;
-    min-height: 300px;
-    margin-bottom: 40px
+    min-height: 250px;
+    margin-bottom: 80px
 }
 
 .feature-dellenbygden {
@@ -202,11 +201,11 @@ button {
     background-position: center;
     margin-top: 10px;
     padding: 0;
-    min-height: 300px;
-    margin-bottom: 40px
+    min-height: 250px;
+    margin-bottom: 80px
 }
 
-.col-xl-3 {
+.col-lg-3 {
     background-color: #F2F2F2;
     box-shadow: 2px 2px 5px #435159;
 }
@@ -231,14 +230,30 @@ button {
     border-radius: 50%;
 }
 
-.quotes .row {
-    margin: 0;
+.quotes h2 {
+    margin: 50px 0 20px;
 }
 
-.col-lg-6 {
+.quotes .row {
+    margin: 0;
+    padding: 0;
+}
+
+.col-sm-5 {
     display: flex;
     flex-wrap: nowrap;
+    margin-bottom: 50px;
+    padding: 0;
 }
+
+.quotes p,
+    .quotes footer {
+        font-size: 0.8rem;
+}
+
+ blockquote {
+    padding-left: 20px;
+    }
 
 /*--------------------Footer*/
 
@@ -264,7 +279,7 @@ button {
 
 .footer-contact {
     padding-top: 1rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     }
 
 .footer-contact-address {
@@ -338,23 +353,10 @@ button {
         font-size: 3rem;
     }
 
-    .features div:first-child,
-    .features div:nth-child(2) {
-        margin-bottom: 100px;
-    }
-
-    .quotes {
-        margin: 10%;
-    }    
-
-    blockquote {
-    margin: 0 0 2rem;
-    padding-left: 20px;
-    }
-    
-
-    .footer-contact {
-        font-size: 1rem;
+    .feature-our-rums,
+    .feature-the-barn,
+    .feature-dellenbygden {
+        min-height: 200px;
     }
 }
 
@@ -386,13 +388,26 @@ button {
     .intro p {
     font-size: 1rem;
     }
+
+    .features {
+        margin: auto 40px;
+    }
    
-    .feature-our-rums,
-    .feature-the-barn,
-    .feature-dellenbygden {
-        min-height: 300px;
+    .features-space-vertical {
+        margin-top: 70px;
+        margin-bottom: 70px;
     }
 
+    .quotes {
+        margin: 5%;
+    }
+
+    .quotes-girl,
+    .quotes-guy {
+        max-height: 80px;
+        min-width: 80px;
+    }
+    
     .footer-contact {
         font-size: 0.9rem;
     }
@@ -435,18 +450,9 @@ button {
     .feature-the-barn,
     .feature-dellenbygden {
         min-height: 150px;
+        margin-bottom: 40px;
     }
 
-   .quotes {
-        margin: 5%;
-    } 
-
-    .quotes-girl,
-    .quotes-guy {
-        max-height: 80px;
-        min-width: 80px;
-    }   
-    
     .footer-logo {
         height: 8vh;
     }
@@ -474,7 +480,7 @@ button {
 
      h1 {
         font-size: 1.8rem;
-        }
+    }
 }
 
 
