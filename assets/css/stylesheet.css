@@ -129,7 +129,7 @@ button {
     height: 700px;
 }
 
-.hero-image-ourrums {
+.hero-image-our-rums {
     background: url("../images/hero-image-our-rums.jpg") no-repeat;
     background-size: cover;
     background-position: center;
@@ -206,6 +206,11 @@ button {
 }
 
 .col-lg-3 {
+    background-color: #F2F2F2;
+    box-shadow: 2px 2px 5px #435159;
+}
+
+.feature-bg-color {
     background-color: #F2F2F2;
     box-shadow: 2px 2px 5px #435159;
 }
