@@ -19,11 +19,17 @@ h1 {
 
 h2 {
     font-family: "Dancing Script", sans-serif;
-    text-align: center;   
     font-size: 2.5rem;
     font-weight: 700;
     line-height: 2;
     }
+
+.welcome-h2 {
+    text-align: center; 
+}
+.our-rum-the-barn-h2 {
+    margin-top: 10px;
+}
 
 .intro p {
     font-size: 1.3rem;
@@ -37,6 +43,97 @@ h2 {
 .intro-ending {
     margin-bottom: 100px
 }
+
+/*--------------------Images*/
+
+.hero-image-welcome {
+    background: url("../images/hero-image-welcome.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    height: 700px;
+}
+
+.hero-image-our-rums {
+    background: url("../images/hero-image-our-rums.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    height: 700px;
+}
+
+.hero-image-the-barn {
+    background: url("../images/hero-image-the-barn.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    height: 700px;
+}
+
+.hero-image-dellenbygden {
+    background: url("../images/hero-image-dellenbygden.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    height: 700px;
+}
+
+.hero-image-contact {
+    background: url("../images/hero-image-contact.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    height: 700px;
+}
+
+.welcome-feature-our-rums {
+    background: url("../images/hero-image-our-rums.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    padding: 0;
+    min-height: 250px;
+    margin-bottom: 80px
+}
+
+.welcome-feature-the-barn {
+    background: url("../images/hero-image-the-barn.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    padding: 0;
+    min-height: 250px;
+    margin-bottom: 80px
+}
+
+.welcome-feature-dellenbygden {
+    background: url("../images/hero-image-dellenbygden.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    padding: 0;
+    min-height: 250px;
+    margin-bottom: 80px
+}
+
+.our-rums-feature-the-suite {
+    background: url("../images/our-rums-suite.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    padding: 0;
+    min-height: 300px;
+    }
 
 /*---------------------------------------Header*/
 
@@ -117,97 +214,11 @@ button {
      
  }
 
- /*--------------------Hero Images*/
+ 
+/*--------------------Feature*/
 
-.hero-image-welcome {
-    background: url("../images/hero-image-welcome.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-    height: 700px;
-}
-
-.hero-image-our-rums {
-    background: url("../images/hero-image-our-rums.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-    height: 700px;
-}
-
-.hero-image-the-barn {
-    background: url("../images/hero-image-the-barn.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-    height: 700px;
-}
-
-.hero-image-dellenbygden {
-    background: url("../images/hero-image-dellenbygden.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-    height: 700px;
-}
-
-.hero-image-contact {
-    background: url("../images/hero-image-contact.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-    height: 700px;
-}
-
-/*--------------------Features*/
-
-.features {
+.feature {
     margin: 0;
-}
-
-.feature-our-rums {
-    background: url("../images/hero-image-our-rums.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-top: 10px;
-    padding: 0;
-    min-height: 250px;
-    margin-bottom: 80px
-}
-
-.feature-the-barn {
-    background: url("../images/hero-image-the-barn.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-top: 10px;
-    padding: 0;
-    min-height: 250px;
-    margin-bottom: 80px
-}
-
-.feature-dellenbygden {
-    background: url("../images/hero-image-dellenbygden.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-top: 10px;
-    padding: 0;
-    min-height: 250px;
-    margin-bottom: 80px
-}
-
-.col-lg-3 {
-    background-color: #F2F2F2;
-    box-shadow: 2px 2px 5px #435159;
 }
 
 .feature-bg-color {
@@ -215,6 +226,18 @@ button {
     box-shadow: 2px 2px 5px #435159;
 }
 
+.feature-our-rums-the-barn {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.feature-space {
+    margin: 100px;
+}
+
+.feature-space-between {
+    margin: 100px 0;
+}
 /*--------------------Quotes*/
 
 .quotes-girl {
@@ -358,9 +381,9 @@ button {
         font-size: 3rem;
     }
 
-    .feature-our-rums,
-    .feature-the-barn,
-    .feature-dellenbygden {
+    .welcome-feature-our-rums,
+    .welcome-feature-the-barn,
+    .welcome-feature-dellenbygden {
         min-height: 200px;
     }
 }
@@ -394,11 +417,11 @@ button {
     font-size: 1rem;
     }
 
-    .features {
+    .feature {
         margin: auto 40px;
     }
    
-    .features-space-vertical {
+    .feature-space-vertical {
         margin-top: 70px;
         margin-bottom: 70px;
     }
@@ -451,9 +474,9 @@ button {
     margin-bottom: 50px 
     }
 
-    .feature-our-rums,
-    .feature-the-barn,
-    .feature-dellenbygden {
+    .welcome-feature-our-rums,
+    .welcome-feature-the-barn,
+    .welcome-feature-dellenbygden {
         min-height: 150px;
         margin-bottom: 40px;
     }
