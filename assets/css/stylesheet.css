@@ -14,7 +14,7 @@ h1 {
     text-align: center;   
     font-size: 4rem;
     font-weight: 700;
-    margin-top: 40px;
+    margin-top: 50px;
     }
 
 h2 {
@@ -272,7 +272,7 @@ button {
 }
 
 .quotes h2 {
-    margin: 50px 0 20px;
+    margin: 70px 0 20px;
 }
 
 .quotes .row {
@@ -457,13 +457,13 @@ button {
     }
 
     .quotes {
-        margin: 5%;
+        margin: 10%;
     }
 
     .quotes-girl,
     .quotes-guy {
-        max-height: 80px;
-        min-width: 80px;
+        max-height: 70px;
+        min-width: 70px;
     }
     
     .footer-contact {
@@ -501,7 +501,7 @@ button {
     }
 
     .intro-ending {
-    margin-bottom: 50px 
+    margin-bottom: 70px 
     }
 
     .welcome-feature-our-rooms,
