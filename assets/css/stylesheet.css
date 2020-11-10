@@ -28,7 +28,8 @@ h2 {
 .welcome-h2 {
     text-align: center; 
 }
-.our-room-the-barn-h2 {
+
+.the-rooms-the-barn-h2 {
     margin-top: 10px;
 }
 
@@ -59,8 +60,8 @@ h2 {
     height: 700px;
 }
 
-.hero-image-our-rooms {
-    background: url("../images/hero-image-our-rooms.jpg") no-repeat;
+.hero-image-the-rooms {
+    background: url("../images/hero-image-the-rooms.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -99,8 +100,8 @@ h2 {
     height: 700px;
 }
 
-.welcome-feature-our-rooms {
-    background: url("../images/hero-image-our-rooms.jpg") no-repeat;
+.welcome-feature-the-rooms {
+    background: url("../images/hero-image-the-rooms.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     margin-top: 10px;
@@ -129,22 +130,31 @@ h2 {
     margin-bottom: 80px
 }
 
-.our-rooms-feature-the-suite {
-    background: url("../images/our-rooms-suite.jpg") no-repeat;
+.the-rooms-feature-the-suite {
+    background: url("../images/the-rooms-suite.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     margin: 20px;
     padding: 0;
-    min-height: 300px;
+    min-height: 350px;
     }
 
-.our-rooms-feature-white-room {
-    background: url("../images/our-rooms-white-room.jpg") no-repeat;
+.the-rooms-feature-white-room {
+    background: url("../images/the-rooms-white-room.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     margin: 20px;
     padding: 0;
-    min-height: 300px;
+    min-height: 350px;
+    }
+
+.the-rooms-feature-red-room {
+    background: url("../images/the-rooms-red-room.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    padding: 0;
+    min-height: 350px;
     }
 
 /*---------------------------------------Header*/
@@ -250,6 +260,26 @@ button {
 
 .feature-space-between {
     margin: 100px 0;
+}
+
+.col-md-7 {
+    padding: 2% 0 0 3%;
+}
+
+.btn {
+    background-color: #ae5d57;
+    border-color: #ae5d57;
+    color: #F2F2F2;
+    font-family: "Dancing Script", sans-serif;
+    position: relative;
+    left: 50%;
+    margin-top: 50px;
+   }
+
+.btn:hover {
+    background-color: #ae5d57;
+    border-color: #ae5d57;
+    color: #F2F2F2;
 }
 
 /*--------------------Quotes*/
@@ -387,7 +417,7 @@ button {
 
  @media only screen and (max-width: 1200px )  {
     .hero-image-welcome,
-    .hero-image-our-rooms,
+    .hero-image-the-rooms,
     .hero-image-the-barn,
     .hero-image-dellenbygden,
     .hero-image-contact {
@@ -403,7 +433,7 @@ button {
         font-size: 3rem;
     }
 
-    .welcome-feature-our-rooms,
+    .welcome-feature-the-rooms,
     .welcome-feature-the-barn,
     .welcome-feature-dellenbygden {
         min-height: 200px;
@@ -428,7 +458,7 @@ button {
         min-height: 12vh;
     }
     .hero-image-welcome,
-    .hero-image-our-rooms,
+    .hero-image-the-rooms,
     .hero-image-the-barn,
     .hero-image-dellenbygden,
     .hero-image-contact {
@@ -456,8 +486,9 @@ button {
         margin-top: 70px;
         margin-bottom: 70px;
     }
-    .our-rooms-feature-the-suite,
-    .our-rooms-feature-white-room {
+    .the-rooms-feature-the-suite,
+    .the-rooms-feature-white-room,
+    .the-rooms-feature-red-room {
         min-height: 200px;
         flex: auto;
     }
@@ -512,7 +543,7 @@ button {
         min-height: 10vh;
     }
     .hero-image-welcome,
-    .hero-image-our-rooms,
+    .hero-image-the-rooms,
     .hero-image-the-barn,
     .hero-image-dellenbygden,
     .hero-image-contact {
@@ -540,11 +571,24 @@ button {
     margin-bottom: 70px 
     }
 
-    .welcome-feature-our-rooms,
+    .welcome-feature-the-rooms,
     .welcome-feature-the-barn,
     .welcome-feature-dellenbygden {
         min-height: 150px;
         margin-bottom: 40px;
+    }
+
+    .col-md-12 {
+        justify-content: center;
+    }
+
+    .col-sm-12 {
+        text-align: center;
+        padding-right: 3%;
+    }
+
+    .feature-order-sm {
+        order: -1
     }
 
     #white-space-quotes-guy {
@@ -568,7 +612,7 @@ button {
 @media only screen and (max-width: 375px) {
    
     .hero-image-welcome,
-    .hero-image-our-rooms,
+    .hero-image-the-rooms,
     .hero-image-the-barn,
     .hero-image-dellenbygden,
     .hero-image-contact {
