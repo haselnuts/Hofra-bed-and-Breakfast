@@ -14,7 +14,8 @@ h1 {
     text-align: center;   
     font-size: 4rem;
     font-weight: 700;
-    margin-top: 50px;
+    margin-top: 80px;
+    margin-bottom: 20px;
     }
 
 h2 {
@@ -272,7 +273,7 @@ button {
 }
 
 .quotes h2 {
-    margin: 70px 0 20px;
+    margin: 100px 0 40px;
 }
 
 .quotes .row {
@@ -280,10 +281,18 @@ button {
     padding: 0;
 }
 
-.col-sm-5 {
+#white-space-quotes-girl {
+    padding-left: 200px;
+}
+
+#white-space-quotes-guy {
+    padding-left: 100px;
+}
+
+.col-lg-6 {
     display: flex;
     flex-wrap: nowrap;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     padding: 0;
 }
 
@@ -293,7 +302,7 @@ button {
 }
 
  blockquote {
-    padding-left: 20px;
+    padding-left: 40px;
     }
 
 /*--------------------Footer*/
@@ -313,7 +322,7 @@ button {
     height: 10vh;
 }
 
-.col-md-9 .col-sm .row {
+.col-sm-8 .col-sm-4 .row {
     display: flex;
     justify-content: center;
 }
@@ -399,6 +408,15 @@ button {
     .welcome-feature-dellenbygden {
         min-height: 200px;
     }
+
+    #white-space-quotes-girl {
+    padding-left: 100px;
+    }
+
+    #white-space-quotes-guy {
+    padding-left: 0;
+    padding-right: 60px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -419,7 +437,7 @@ button {
     }
 
     h1 {
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
 
     h2 {
@@ -452,8 +470,8 @@ button {
         flex-wrap: wrap;
     }
 
-    .col-12 {
-    text-align: center;
+    .col-md-12 {
+    justify-content: center;
     }
 
     .quotes {
@@ -464,6 +482,24 @@ button {
     .quotes-guy {
         max-height: 70px;
         min-width: 70px;
+    }
+
+    #white-space-quotes-girl {
+    padding-left: 0;
+    padding-right: 20px;
+    }
+
+    #white-space-quotes-guy {
+    padding-left: 150px;
+    }
+
+    blockquote {
+        padding-left: 20px;
+    }
+
+    .col-md-12 {
+    display: flex;
+    flex-wrap: nowrap;
     }
     
     .footer-contact {
@@ -511,7 +547,10 @@ button {
         margin-bottom: 40px;
     }
 
-    
+    #white-space-quotes-guy {
+    padding-left: 0;
+    }
+
     .footer-logo {
         height: 8vh;
     }
