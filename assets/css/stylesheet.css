@@ -46,6 +46,9 @@ h2 {
     margin-bottom: 100px
 }
 
+.intro .disclaimer {
+    font-size: 1.0rem;
+}
 
 
 /*--------------------Images*/
@@ -604,6 +607,7 @@ button {
 
     #white-space-quotes-guy {
     padding-left: 0;
+    margin-bottom: 0;
     }
 
     .footer-logo {
