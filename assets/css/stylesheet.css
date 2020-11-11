@@ -333,6 +333,7 @@ button {
 
  blockquote {
     padding-left: 40px;
+    width: 250px;
     }
 
 /*--------------------Footer*/
@@ -433,10 +434,19 @@ button {
         font-size: 3rem;
     }
 
+    
+
     .welcome-feature-the-rooms,
     .welcome-feature-the-barn,
     .welcome-feature-dellenbygden {
         min-height: 200px;
+    }
+
+    .the-rooms-feature-the-suite,
+    .the-rooms-feature-white-room,
+    .the-rooms-feature-red-room {
+        min-height: 200px;
+        flex: auto;
     }
 
     #white-space-quotes-girl {
@@ -471,9 +481,9 @@ button {
     }
 
     h2 {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
-
+    
     .intro p {
     font-size: 1rem;
     }
@@ -486,14 +496,8 @@ button {
         margin-top: 70px;
         margin-bottom: 70px;
     }
-    .the-rooms-feature-the-suite,
-    .the-rooms-feature-white-room,
-    .the-rooms-feature-red-room {
-        min-height: 200px;
-        flex: auto;
-    }
 
-    .feature-space {
+   .feature-space {
         margin: 100px 40px;
     }
 
@@ -517,11 +521,12 @@ button {
 
     #white-space-quotes-girl {
     padding-left: 0;
-    padding-right: 20px;
+   
     }
 
-    #white-space-quotes-guy {
-    padding-left: 150px;
+    #white-space-quotes-guy,
+    #white-space-quotes-girl {
+    padding-right: 0;
     }
 
     blockquote {
@@ -578,6 +583,12 @@ button {
         margin-bottom: 40px;
     }
 
+    .the-rooms-feature-the-suite,
+    .the-rooms-feature-white-room,
+    .the-rooms-feature-red-room {
+        min-height: 200px;
+    }
+
     .col-md-12 {
         justify-content: center;
     }
@@ -622,6 +633,12 @@ button {
 
      h1 {
         font-size: 1.8rem;
+    }
+
+    .the-rooms-feature-the-suite,
+    .the-rooms-feature-white-room,
+    .the-rooms-feature-red-room {
+        min-height: 150px;
     }
 }
 
