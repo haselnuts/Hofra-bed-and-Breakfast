@@ -46,11 +46,6 @@ h2 {
     margin-bottom: 100px
 }
 
-.intro .disclaimer {
-    font-size: 1.0rem;
-}
-
-
 /*--------------------Images*/
 
 .hero-image-welcome {
@@ -139,7 +134,7 @@ h2 {
     background-position: center;
     margin: 20px;
     padding: 0;
-    min-height: 350px;
+    min-height: 300px;
     }
 
 .the-rooms-feature-white-room {
@@ -148,7 +143,7 @@ h2 {
     background-position: center;
     margin: 20px;
     padding: 0;
-    min-height: 350px;
+    min-height: 300px;
     }
 
 .the-rooms-feature-red-room {
@@ -157,7 +152,7 @@ h2 {
     background-position: center;
     margin: 20px;
     padding: 0;
-    min-height: 350px;
+    min-height: 300px;
     }
 
 /*---------------------------------------Header*/
@@ -239,6 +234,11 @@ button {
      
  }
 
+/*--------------------Introduction*/
+
+.intro .smoking-disclaimer {
+    font-size: 1.0rem;
+}
  
 /*--------------------Feature*/
 
@@ -257,8 +257,8 @@ button {
     margin: 0;
 }
 
-.feature-space {
-    margin: 100px;
+.feature-space-around {
+    margin: 8% 15%;
 }
 
 .feature-space-between {
@@ -269,11 +269,15 @@ button {
     padding: 2% 0 0 3%;
 }
 
+/*--------------------Button*/
+
 .btn {
     background-color: #ae5d57;
     border-color: #ae5d57;
     color: #F2F2F2;
     font-family: "Dancing Script", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
     position: relative;
     left: 50%;
     margin-top: 50px;
@@ -578,6 +582,10 @@ button {
     .intro-ending {
     margin-bottom: 70px 
     }
+
+    .intro .smoking-disclaimer {
+    font-size: 0.6rem;
+}
 
     .welcome-feature-the-rooms,
     .welcome-feature-the-barn,
