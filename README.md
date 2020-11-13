@@ -8,7 +8,7 @@
 </div>
 
 A genuine website for my friends Hofra Bed & Breakfast. The website features a welcoming page, information
- on the rums, the barn, intresting destinations and inviting images.
+ on the rums, the barn, pricing, intresting destinations and inviting images.
 
 This website will be the first and my friends gave me the opportunity to code the website for their first business. 
 There will be changes to this website in the future along with my learning process. 
@@ -26,7 +26,7 @@ I'm very excited and nervous at the same time. My biggest fear is this readme fi
 
 #### Future goals and features
 - Get companies to have their conferences at Hofra Bed & Breakfast
-- A second, much smaller barn will be added
+- A feature for a second, much smaller barn will be added
 - The income from the B&B shall cover one persons yearly income
 
 ## UX
@@ -51,9 +51,7 @@ Each page features the buisness **logo**, placed above all context, a responsive
 The **footer** features an **address** linking to Google maps, **telephone number and e-mail** with a click to call function and 
 **social media icons** linking to B&B's 2 social media pages. 
 
-Each page features its own welcoming **hero image**.
-
-On **mobile devices** a button **to the top** will be appearing on the botton of each page.
+Each page features its own welcome **hero image**.
 
 #### Welcome
 The page features a **hero image** of the inside of the courtyard, a warm welcome to Hofra Bed & Breakfast, **hero images**
@@ -108,6 +106,8 @@ current fonts.
 **Second barn** a feature for the much smaller barn will be added to The barn page. The smaller barn was not part of the original wireframe. This barn 
 could be used for smaller gatherings.
 **Modals** images for The rooms and Dellendistrict shall be shown in a modal when clicking on the images in the features.
+On **mobile devices** a button **to the top** will be appearing on the bottom of each page.
+
 
 ## Technoligies used
 - This project uses HTML and CSS programming languages.
@@ -155,4 +155,6 @@ To all at
  - Slack
  - W3schools.com
  - Stackflow
+
+README.md file structure taken from AJ Graves repository: portrait-artist.
 
