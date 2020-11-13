@@ -72,3 +72,11 @@
 ## hero-image-welcome was not responsive
     To seperate the hero images for the different features I added the welcome to the class hero-image-welcome. I did change the class in the stylesheet but not for the responsive design.
     The solution was to correct all hero-image classes.
+
+
+# Quotes
+
+## Quotes image and quotes will not wrap
+    Changed class col-lg-6 to col-md-6 but forgot to check if this will effect anything in the stylesheet.
+    After correcting class name in stylesheet it worked again.
+    
