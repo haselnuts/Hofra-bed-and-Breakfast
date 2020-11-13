@@ -167,6 +167,24 @@ h2 {
     min-height: 14vh;
 }
 
+.quotes-girl {
+    background: url("../images/quotes-girl.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-height: 100px;
+    min-width: 100px;
+    border-radius: 50%;
+}
+
+.quotes-guy{
+    background: url("../images/quotes-guy.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-height: 100px;
+    min-width: 100px;
+    border-radius: 50%;
+}
+
 /*---------------------------------------Navigation*/
 
 .nav-font-color {
@@ -299,24 +317,6 @@ button {
 
 /*--------------------Quotes*/
 
-.quotes-girl {
-    background: url("../images/quotes-girl.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 100px;
-    max-width: 100px;
-    border-radius: 50%;
-}
-
-.quotes-guy{
-    background: url("../images/quotes-guy.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 100px;
-    max-width: 100px;
-    border-radius: 50%;
-}
-
 .quotes h2 {
     margin: 0 0 40px;
 }
@@ -334,7 +334,7 @@ button {
     padding-left: 100px;
 }
 
-.col-lg-6 {
+.quotes .col-md-6 {
     display: flex;
     flex-wrap: nowrap;
     margin-bottom: 80px;
@@ -342,7 +342,7 @@ button {
 }
 
 .quotes p,
-    .quotes footer {
+.quotes footer {
         font-size: 0.8rem;
 }
 
