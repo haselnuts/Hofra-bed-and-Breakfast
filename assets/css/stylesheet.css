@@ -25,8 +25,9 @@ h2 {
     line-height: 2;
     }
 
-.welcome-h2 {
+.feature-h2 {
     text-align: center; 
+    padding-top: 5%;
 }
 
 .the-rooms-the-barn-h2 {
@@ -34,7 +35,7 @@ h2 {
 }
 
 .intro p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 400;
     padding-top: 20px;
     margin-left: 10%;
@@ -242,8 +243,6 @@ button {
     font-family: "Dancing Script", sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
-    position: relative;
-    left: 50%;
 }
 
 .btn:hover {
@@ -253,7 +252,9 @@ button {
 }
 
 .boka-button {
+    margin-top: 70px;
     margin-bottom: 100px;
+    text-align: center;
 }
 
 /*--------------------Introduction*/
@@ -271,6 +272,11 @@ button {
 .feature-bg-color {
     background-color: #F2F2F2;
     box-shadow: 2px 2px 5px #435159;
+}
+
+.card {
+    background-color: #F2F2F2;
+    border: transparent;
 }
 
 .row-wrap {
@@ -497,10 +503,6 @@ button {
     font-size: 1rem;
     }
 
-    .feature {
-        margin: auto 40px;
-    }
-   
     .feature-space-vertical {
         margin-top: 70px;
         margin-bottom: 70px;
@@ -602,6 +604,14 @@ button {
         min-height: 200px;
     }
 
+    .feature {
+        margin: auto 25%;
+    }
+
+    .col-12 {
+        margin-bottom: 0;
+    }
+
     .col-md-12 {
         justify-content: center;
     }
@@ -653,6 +663,10 @@ button {
     .the-rooms-feature-white-room,
     .the-rooms-feature-red-room {
         min-height: 150px;
+    }
+
+    .feature {
+        margin: auto 10%;
     }
 }
 
