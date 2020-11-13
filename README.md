@@ -16,7 +16,7 @@ I'm very excited and nervous at the same time. My biggest fear is this readme fi
 
 #### The business goals of this website are
 - Provide information about the different features
-- Provide intresting destination near by
+- Provide intresting destination near by, Dellendistrict shall be the final destination
 - Provide warm and inviting images
 
 #### Customer goals of this website
@@ -26,12 +26,13 @@ I'm very excited and nervous at the same time. My biggest fear is this readme fi
 
 #### Future goals and features
 - Get companies to have their conferences at Hofra Bed & Breakfast
-- Hälsingland shall be the guest's final destination/ for ever home
+- A second, much smaller barn will be added
+- The income from the B&B shall cover one persons yearly income
 
 ## UX
 #### The ideal guest for this business is:
 - Wants to stay without any distractions
-- mmmm
+- Wants to stay for a longer time not just one night
 
 #### Visitors to this website are searching for:
 - Intresting place to stay
@@ -106,6 +107,7 @@ events nearby.
 current fonts.
 **Second barn** a feature for the much smaller barn will be added to The barn page. The smaller barn was not part of the original wireframe. This barn 
 could be used for smaller gatherings.
+**Modals** images for The rooms and Dellendistrict shall be shown in a modal when clicking on the images in the features.
 
 ## Technoligies used
 - This project uses HTML and CSS programming languages.
@@ -138,10 +140,11 @@ could be used for smaller gatherings.
 
 ## Credits
 #### Content
-The original text was in swedish and provided by Jenny Gustafsson. Translation into english was done by...
+The original text was in swedish and provided by Jenny Gustafsson. Translation into english was done by the developer. 
 
 #### Media
-All photos used on this website were provided by Jenny Gustafsson and Per Brodén.
+Most images used on this website were provided by Jenny Gustafsson and Per Brodén.
+Additional images for the barn were provided by Peter Larsson.
 The hero image for the Discover Dellenbygden page was provided by Nadine Schmidt, the developer of this website.
 
 ### Acknowledgements
