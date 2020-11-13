@@ -218,6 +218,8 @@ nav .nav-contact-sm a:hover {
     color: #ae5d57;
 }
 
+/*--------------------Button*/
+
 nav .button-border {
     border-color: #84898C;
     padding: 2px 10px 2px 10px;
@@ -230,9 +232,29 @@ nav .button-size-text {
 
 button {
     float: right;
-    margin-right: 10px;
-     
+    margin-right: 10px;  
  }
+
+.btn {
+    background-color: #ae5d57;
+    border-color: #ae5d57;
+    color: #F2F2F2;
+    font-family: "Dancing Script", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    position: relative;
+    left: 50%;
+}
+
+.btn:hover {
+    background-color: #ae5d57;
+    border-color: #ae5d57;
+    color: #F2F2F2;
+}
+
+.boka-button {
+    margin-bottom: 100px;
+}
 
 /*--------------------Introduction*/
 
@@ -258,7 +280,7 @@ button {
 }
 
 .feature-space-around {
-    margin: 8% 15%;
+    margin: 8% 15% 4%;
 }
 
 .feature-space-between {
@@ -267,26 +289,6 @@ button {
 
 .col-md-7 {
     padding: 2% 0 0 3%;
-}
-
-/*--------------------Button*/
-
-.btn {
-    background-color: #ae5d57;
-    border-color: #ae5d57;
-    color: #F2F2F2;
-    font-family: "Dancing Script", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 600;
-    position: relative;
-    left: 50%;
-    margin-top: 50px;
-   }
-
-.btn:hover {
-    background-color: #ae5d57;
-    border-color: #ae5d57;
-    color: #F2F2F2;
 }
 
 /*--------------------Quotes*/
@@ -644,7 +646,7 @@ button {
     }
 
      h1 {
-        font-size: 1.8rem;
+        font-size: 2.0rem;
     }
 
     .the-rooms-feature-the-suite,
