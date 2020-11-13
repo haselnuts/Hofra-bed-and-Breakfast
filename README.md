@@ -123,6 +123,9 @@ could be used for smaller gatherings.
 - **TinyPNG**
   - This project uses **[TinyPNG](https://tinypng.com/)** to reduce the size of the images used on this website.
 
+## Changes made
+ - **The barn** 2 packages with information and pricing were added
+
 ## Problem solving
 - Problem solving information can be found in seperate 
 **[problemsolving.md file](https://github.com/haselnuts/Hofra-Bed-Breakfast/blob/master/problemsolving.md)**.
@@ -148,4 +151,8 @@ Additional images for the barn were provided by Peter Larsson.
 The hero image for the Discover Dellenbygden page was provided by Nadine Schmidt, the developer of this website.
 
 ### Acknowledgements
+To all at 
+ - Slack
+ - W3schools.com
+ - Stackflow
 
