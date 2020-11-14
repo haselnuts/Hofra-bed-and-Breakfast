@@ -74,6 +74,12 @@
     The solution was to correct all hero-image classes.
 
 
+# Features
+
+## Features of The barn had different sizes
+    The features for the two packages had different heigth due to less text in one of them. I found a simple solution on Slack, using the class name cards.
+
+
 # Quotes
 
 ## Quotes image and quotes will not wrap
