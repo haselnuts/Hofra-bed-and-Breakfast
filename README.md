@@ -7,21 +7,21 @@
 [View website in Github pages](https://github.com/haselnuts/Hofra-Bed-Breakfast)
 </div>
 
-A genuine website for my friends Hofra Bed & Breakfast. The website features a welcoming page, information
- on the rums, the barn, pricing, intresting destinations and inviting images.
+A genuine website for my friends Hofra Bed & Breakfast. The website features a welcome page, information on the rooms, the barn, pricing, 
+intresting destinations and inviting images.
 
-This website will be the first and my friends gave me the opportunity to code the website for their first business. 
-There will be changes to this website in the future along with my learning process. 
+This website will be my first and my friends gave me the opportunity to code a website for their first business. 
+There will be changes to this website in the future along with my learning progress. 
 I'm very excited and nervous at the same time. My biggest fear is this readme file.
 
 #### The business goals of this website are
-- Provide information about the different features
+- Provide information about the branches 
 - Provide intresting destination near by, Dellendistrict shall be the final destination
 - Provide warm and inviting images
 
 #### Customer goals of this website
 - Guest shall feel welcomed
-- Pinpoint information on each feature
+- Geust shall find pinpoint information on each branch
 - Easy to find contact information
 
 #### Future goals and features
@@ -41,7 +41,7 @@ I'm very excited and nervous at the same time. My biggest fear is this readme fi
 
 #### Wireframes mockups:
 - [Welcome](https://www.figma.com/file/MBrPn6xwBuE9RgPheqxibW/Hofra-Bed-%26-Breakfast?node-id=0%3A1)
-- [Our rums](https://www.figma.com/file/MBrPn6xwBuE9RgPheqxibW/Hofra-Bed-%26-Breakfast?node-id=42%3A45)
+- [The rooms](https://www.figma.com/file/MBrPn6xwBuE9RgPheqxibW/Hofra-Bed-%26-Breakfast?node-id=42%3A45)
 - [The barn](https://www.figma.com/file/MBrPn6xwBuE9RgPheqxibW/Hofra-Bed-%26-Breakfast?node-id=2%3A24)
 - [Discover Dellenbygden](https://www.figma.com/file/MBrPn6xwBuE9RgPheqxibW/Hofra-Bed-%26-Breakfast?node-id=2%3A25)
 - [Contact](https://www.figma.com/file/MBrPn6xwBuE9RgPheqxibW/Hofra-Bed-%26-Breakfast?node-id=110%3A0)
@@ -57,19 +57,19 @@ Each page features its own welcome **hero image**.
 The page features a **hero image** of the inside of the courtyard, a warm welcome to Hofra Bed & Breakfast, **hero images**
  of the 3 **main features** with a link to each page and some reviews from guests. 
 
-#### Our rums
+#### The rooms
 The page features a **hero image** of the suite, a description of the house, service, addtional fees and a **call to action button**
 which guides the visitor to the contact page. 
 
 Each rum is featured with one **hero image** and a short description of the rum. When clicking on the hero image a **modal** opens with more images.
 
 #### The barn
-The page features a **hero image** showing styled tables ready for the festivity, a description of the barn, packages and prices, 
-addtional fees, a gallery and a **call to action button** which guides the potential guest to the contact page. 
+The page features a **hero image** showing styled tables ready for the festivity, a description of the barn, packages and prices, a gallery and a 
+**call to action button** which guides the potential guest to the contact page. 
 
-#### Discover Dellenbygden
+#### Dellendistrict
 The page features a **hero image** of a destination to visit, the aim of the page and 3 section. The 3 sections are diveded into
- **yearly recurrent events**, **destinations** and **hiking**.
+ **yearly recurrent events**, **destinations to visit** and **hikingtrails**.
 
 #### Contact
 The page features a **hero image** birds-eye view of the farm, **contact informations**, a **map** linking to Google maps, travel description by bus and car and a 
@@ -77,25 +77,23 @@ The page features a **hero image** birds-eye view of the farm, **contact informa
 
 ### Existing features
 **Logo** - Exists in the header and the footer of **every page** and allows the potential guest to easily navigate back 
-to the **Welcome** page by clicking on it.
+to the **Welcome** page.
 
-**Navigation Bar** - Exists on **every page** and allows the potential guest to navigate thru the website's pages and find 
-what they are looking.
+**Navigation Bar** - Exists on **every page** and allows the potential guest to navigate thru the website's pages.
 
 **Hero Image** – Exists on **every page** and allows the potential guest to get a feeling for their stay.
 
 **Social Icons** - Exist on **every page** and allows the potential guest to access the **social platforms**.
 
-**Call to Action Button** - Exist on on **Our rums** and **The barn** pages and guides the potential guest to the **contact page**.
+**Call to Action Button** - Exist on on **The rooms** and **The barn** pages and guides the potential guest to the **contact page**.
 
 **Welcome page** – Allows the potential guest to view what Hofra Bed & Breakfast offers.
 
-**Our Rums page** – Allows the potential guest to view the rums, services and pricing.
+**The rooms page** – Allows the potential guest to view the rooms, services and pricing.
 
 **The Barn page** – Allows the potential guest to view the different areas, packages and pricing.
 
-**Discover Dellenbygden** – Allows the potential guest to plan their activities and gives them a heads up on interesting 
-events nearby.
+**Dellendistirct** – Allows the potential guest to plan their activities and gives them a heads up on interesting events nearby.
 
 **Contact Form** - Allows potential guest to get in contact.
 
@@ -151,10 +149,17 @@ Additional images for the barn were provided by Peter Larsson.
 The hero image for the Discover Dellenbygden page was provided by Nadine Schmidt, the developer of this website.
 
 ### Acknowledgements
+
+README.md 
+ - Structure taken from AJ Graves repository: portrait-artist
+
 To all at 
  - Slack
  - W3schools.com
  - Stackflow
 
-README.md file structure taken from AJ Graves repository: portrait-artist.
+Gallery posistioning
+ -  https://codepen.io/SamA74/pen/vGOqdv
+
+
 
