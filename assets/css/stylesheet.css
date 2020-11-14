@@ -23,7 +23,7 @@ h2 {
     font-size: 2.5rem;
     font-weight: 700;
     line-height: 2;
-    }
+}
 
 .feature-h2 {
     text-align: center; 
@@ -136,7 +136,7 @@ h2 {
     margin: 20px;
     padding: 0;
     min-height: 300px;
-    }
+}
 
 .the-rooms-feature-white-room {
     background: url("../images/the-rooms-white-room.jpg") no-repeat;
@@ -145,7 +145,7 @@ h2 {
     margin: 20px;
     padding: 0;
     min-height: 300px;
-    }
+}
 
 .the-rooms-feature-red-room {
     background: url("../images/the-rooms-red-room.jpg") no-repeat;
@@ -154,17 +154,15 @@ h2 {
     margin: 20px;
     padding: 0;
     min-height: 300px;
-    }
+}
 
-/*---------------------------------------Header*/
-
-.header-logo {
-    background: url("../images/logo.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+.the-barn-gallery-1 {
+    background: url("../images/the-barn-gallery-1.jpg") no-repeat;
+    background-size: cover;
     background-position: center;
-    margin-top: 10px;
-    min-height: 14vh;
+    margin: 20px;
+    padding: 0;
+    min-height: 150px;
 }
 
 .quotes-girl {
@@ -185,6 +183,17 @@ h2 {
     border-radius: 50%;
 }
 
+/*---------------------------------------Header*/
+
+.header-logo {
+    background: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 10px;
+    min-height: 14vh;
+}
+
 /*---------------------------------------Navigation*/
 
 .nav-font-color {
@@ -195,7 +204,7 @@ h2 {
 .nav-item {
     margin-right: 40px;
     font-size: 1.5rem;
-    }
+}
 
 .nav a {
     transition: all 0.35s ease-in-out;
@@ -215,21 +224,21 @@ nav .row {
 nav .col-5:first-child {
     padding-right: 0px;
     margin-left: 0px;
-    }
+}
 
 nav .col-5:nth-child(2) {
     padding-left: 0px;
-    }    
+}    
 
 nav .nav-contact-sm {
     font-size: 0.9rem;
     text-align: center;
-    }
+}
 
 nav .nav-contact-sm i,
 nav .nav-contact-sm a {
     color: #435159;
-    }
+}
 
 nav .nav-contact-sm a:hover {
     text-decoration: none;
@@ -247,12 +256,12 @@ nav .button-border {
 nav .button-size-text {
     height: 20px;
     width: 20px;
- }
+}
 
 button {
     float: right;
     margin-right: 10px;  
- }
+}
 
 .btn {
     background-color: #ae5d57;
@@ -346,10 +355,10 @@ button {
         font-size: 0.8rem;
 }
 
- blockquote {
+blockquote {
     padding-left: 40px;
     width: 250px;
-    }
+}
 
 /*--------------------Footer*/
 
@@ -376,7 +385,7 @@ button {
 .footer-contact {
     padding-top: 1rem;
     font-size: 1rem;
-    }
+}
 
 .footer-contact-address {
     color:#435159;
@@ -589,7 +598,7 @@ button {
 
     .intro .smoking-disclaimer {
     font-size: 0.6rem;
-}
+    }
 
     .welcome-feature-the-rooms,
     .welcome-feature-the-barn,
