@@ -159,7 +159,7 @@ To all at
  - Stackflow
 
 Gallery posistioning
- -  https://codepen.io/SamA74/pen/vGOqdv
+ -  https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
 
 
 
