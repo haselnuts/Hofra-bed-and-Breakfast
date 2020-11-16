@@ -288,7 +288,8 @@ button {
 }
 
 .feature h3 {
-    padding-bottom: 3%;
+    padding-bottom: 5%;
+    text-align: center;
 }
 .feature-bg-color {
     background-color: #F2F2F2;
@@ -320,11 +321,16 @@ button {
 
 #packages-h2{
     text-align: center;
+    padding-bottom: 3%;
 }
 
-.card {
-        background-color: #F2F2F2;
-        border: transparent;
+#packages .col-md-4 {
+    flex: 1;
+}
+
+.packages-offer {
+    padding: 3% 7%;
+    box-shadow: 2px 2px 5px #435159;
     }
 
 .feature li {
@@ -356,17 +362,21 @@ button {
     text-align: center;
 }
 
-.gallery-images {
-    text-align: center;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-around;
+.gallery .row {
+    margin: 0;
 }
 
-.gallery img {
-    max-width: 200px;
-    height: auto;
-    display: inline-block;
+.column {
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
 }
 
 /*--------------------Quotes*/
@@ -501,9 +511,7 @@ blockquote {
 
     h1 {
         font-size: 3rem;
-    }
-
-    
+    }    
 
     .welcome-feature-the-rooms,
     .welcome-feature-the-barn,
@@ -578,8 +586,19 @@ blockquote {
         margin-bottom: 70px;
     }
 
+    #packages .feature-space-vertical {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
    .feature-space {
         margin: 100px 40px;
+    }
+
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
     }
 
     .row-wrap {
@@ -691,6 +710,11 @@ blockquote {
         padding-right: 3%;
     }
 
+    #packages .col-sm-12 {
+        text-align: left;
+        padding-right: auto;
+    } 
+
     .feature-order-sm {
         order: -1
     }
@@ -698,11 +722,10 @@ blockquote {
     #packages .feature {
         margin: auto 10%;
     }
-    hr {
-        position: relative;
-        background-color: #fff; 
-        border-top: 2px dashed #8c8b8b;
-    }
+
+    #packages .col-md-4 {
+        flex: none;
+}
 
     #only-barn {
         margin-top: 5%;
@@ -751,6 +774,13 @@ blockquote {
     .feature {
         margin: auto 10%;
     }
+
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+    
 }
 
 
