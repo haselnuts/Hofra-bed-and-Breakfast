@@ -287,6 +287,9 @@ button {
     margin: 0;
 }
 
+.feature h3 {
+    padding-bottom: 3%;
+}
 .feature-bg-color {
     background-color: #F2F2F2;
     box-shadow: 2px 2px 5px #435159;
@@ -315,9 +318,38 @@ button {
     padding: 2% 0 0 3%;
 }
 
+#packages {
+    margin: 5%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+#packages-h2{
+    text-align: center;
+}
+
+.feature li {
+    line-height: 1.7;
+}
+
+#price {
+    text-align: center;
+}
+
+#price-tag {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-top: 2%;
+    margin-bottom: 0;
+}
+
+#disposition {
+    font-size: 0.7rem;
+}
 /*--------------------Gallery*/
 .gallery {
-    margin: 5px;
+    margin: 5%;
+    padding-top: 5px;
     text-align: center;
     display: flex;
     flex-flow: wrap;
@@ -326,7 +358,8 @@ button {
 }
 
 .gallery img {
-    max-width: 95%;
+    max-width: 200px;
+    height: auto;
     display: inline-block;
 }
 
