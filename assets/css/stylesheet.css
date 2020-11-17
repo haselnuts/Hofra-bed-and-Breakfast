@@ -34,6 +34,11 @@ h2 {
     margin-top: 10px;
 }
 
+h4 {
+    font-family: "Dancing Script", sans-serif;
+    font-weight: 700;
+}
+
 .intro p {
     font-size: 1.2rem;
     font-weight: 400;
@@ -349,6 +354,50 @@ button {
 
 #disposition {
     font-size: 0.7rem;
+}
+
+.contact {
+    background-color: #F2F2F2;
+    color: #435159;
+    font-weight: 400;
+    margin: 5% 30%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+.contact-address {
+    color:#435159;
+    transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.contact a:hover {
+    text-decoration: none;
+    font-weight: 400;
+    color: #ae5d57;
+}
+
+.contact-phone,
+.contact-email {
+    text-align: center;
+}
+.contact-phone a,
+.contact-email a {
+    color:#435159;
+    transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.contact-phone a:hover,
+.contact-email a:hover {
+    text-decoration: none;
+    font-weight: 400;
+    color: #ae5d57;
 }
 
 /*--------------------Gallery*/
