@@ -270,7 +270,6 @@ button {
 }
 
 .boka-button {
-    margin-top: 70px;
     margin-bottom: 100px;
     text-align: center;
 }
@@ -329,7 +328,7 @@ button {
 }
 
 .packages-offer {
-    padding: 3% 7%;
+    padding: 3% 3%;
     box-shadow: 2px 2px 5px #435159;
     }
 
@@ -601,6 +600,10 @@ blockquote {
         margin-right: 27%;
     }
 
+    .packages-offer {
+        padding: 3% 9%;
+    }
+
     .column {
         -ms-flex: 50%;
         flex: 50%;
@@ -611,18 +614,18 @@ blockquote {
         flex-wrap: wrap;
     }
 
-    .col-md-12 {
-    justify-content: center;
-    }
-
     .quotes {
         margin: 10%;
     }
 
+    .quotes .col-sm-12 {
+        justify-content: center;
+    }
+
     .quotes-girl,
     .quotes-guy {
-        min-height: 50px;
-        max-width: 50px;
+        max-height: 70px;
+        min-width: 70px;
     }
 
     #white-space-quotes-girl {
@@ -639,11 +642,6 @@ blockquote {
         padding-left: 20px;
     }
 
-    .col-md-12 {
-    display: flex;
-    flex-wrap: nowrap;
-    }
-    
     .footer-contact {
         font-size: 0.9rem;
     }
@@ -703,20 +701,6 @@ blockquote {
         margin: auto 25%;
     }
 
-    .col-md-12 {
-        justify-content: center;
-    }
-
-    .col-sm-12 {
-        text-align: center;
-        padding-right: 3%;
-    }
-
-    #packages .col-sm-12 {
-        text-align: left;
-        padding-right: auto;
-    } 
-
     #packages {
     margin-left: 15%;
     margin-right: 15%;
@@ -770,7 +754,7 @@ blockquote {
     }
 
     h1 {
-        font-size: 2.0rem;
+        font-size: 2.3rem;
     }
 
     .the-rooms-feature-the-suite,
