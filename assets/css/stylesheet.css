@@ -356,50 +356,6 @@ button {
     font-size: 0.7rem;
 }
 
-.contact {
-    background-color: #F2F2F2;
-    color: #435159;
-    font-weight: 400;
-    margin: 5% 30%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-
-.contact-address {
-    color:#435159;
-    transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.contact a:hover {
-    text-decoration: none;
-    font-weight: 400;
-    color: #ae5d57;
-}
-
-.contact-phone,
-.contact-email {
-    text-align: center;
-}
-.contact-phone a,
-.contact-email a {
-    color:#435159;
-    transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.contact-phone a:hover,
-.contact-email a:hover {
-    text-decoration: none;
-    font-weight: 400;
-    color: #ae5d57;
-}
-
 /*--------------------Gallery*/
 .gallery {
     margin: 5% 8%;
@@ -462,6 +418,95 @@ blockquote {
     padding-left: 40px;
     width: 250px;
 }
+
+/*--------------------Contact page*/
+
+.contact {
+    background-color: #F2F2F2;
+    margin: 5% 24%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.maps {
+     margin-left: 24%;
+     margin-right: 24%;
+
+}
+
+.form {
+    font-weight: 400;
+    margin: 5% 25%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #F2F2F2;
+}
+
+.contact
+
+.contact a:hover {
+    text-decoration: none;
+    color: #ae5d57;
+}
+
+.contact-phone,
+.contact-email {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact-phone a,
+.contact-email a {
+    color:#435159;
+    transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.contact-phone a:hover,
+.contact-email a:hover {
+    text-decoration: none;
+    font-weight: 400;
+    color: #ae5d57;
+}
+
+.address {
+    font-weight: 400;
+    margin: 5% 15%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.address div {
+    text-align: center;
+}
+
+.address a {
+    color:#435159;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.address a:hover {
+    text-decoration: none;
+    font-weight: 400;
+    color: #ae5d57;
+}
+
+.maps {
+    text-align: center;
+}
+
+form {
+    margin: auto 2%;
+}
+
+
 
 /*--------------------Footer*/
 
@@ -614,7 +659,7 @@ blockquote {
         font-size: 2.2rem;
     }
 
-    h3 {
+    .feature h3 {
        font-size: 1.4rem; 
     }
     
