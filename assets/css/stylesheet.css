@@ -510,7 +510,7 @@ blockquote {
     }
 
     h1 {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }    
 
     .welcome-feature-the-rooms,
@@ -554,11 +554,16 @@ blockquote {
     }
 
     h1 {
-        font-size: 2.3rem;
+        font-size: 3.0rem;
     }
 
     h2 {
         font-size: 1.7rem;
+    }
+
+    #packages-h2,
+    #gallery-h2 {
+        font-size: 2.2rem;
     }
 
     h3 {
@@ -569,10 +574,6 @@ blockquote {
     font-size: 1rem;
     }
 
-    .card p {
-        font-size: 0.9rem;
-    }
-
     #price-tag {
         font-size: 1.3rem;
     }
@@ -581,18 +582,23 @@ blockquote {
         font-size: 0.9rem;
     }
 
+    .packages-offer p {
+        font-size: 0.9rem;
+    }
+
     .feature-space-vertical {
         margin-top: 70px;
         margin-bottom: 70px;
     }
 
-    #packages .feature-space-vertical {
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-
    .feature-space {
         margin: 100px 40px;
+    }
+
+    #packages {
+        margin-top: 10%;
+        margin-left: 27%;
+        margin-right: 27%;
     }
 
     .column {
@@ -615,8 +621,8 @@ blockquote {
 
     .quotes-girl,
     .quotes-guy {
-        min-height: 70px;
-        max-width: 70px;
+        min-height: 50px;
+        max-width: 50px;
     }
 
     #white-space-quotes-girl {
@@ -697,10 +703,6 @@ blockquote {
         margin: auto 25%;
     }
 
-    .col-12 {
-        margin-bottom: 0;
-    }
-
     .col-md-12 {
         justify-content: center;
     }
@@ -715,6 +717,12 @@ blockquote {
         padding-right: auto;
     } 
 
+    #packages {
+    margin-left: 15%;
+    margin-right: 15%;
+    }
+
+
     .feature-order-sm {
         order: -1
     }
@@ -727,7 +735,7 @@ blockquote {
         flex: none;
 }
 
-    #only-barn {
+    .feature h3 {
         margin-top: 5%;
     }
 
@@ -773,6 +781,11 @@ blockquote {
 
     .feature {
         margin: auto 10%;
+    }
+
+    #packages {
+    margin-left: 5%;
+    margin-right: 5%;
     }
 
     .column {
