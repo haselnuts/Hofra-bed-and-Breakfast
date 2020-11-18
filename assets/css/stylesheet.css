@@ -52,6 +52,11 @@ h4 {
     margin-bottom: 100px
 }
 
+.row {
+    margin: 0;
+    padding: 0;
+}
+
 /*--------------------Images*/
 
 .hero-image-welcome {
@@ -279,6 +284,15 @@ button {
     text-align: center;
 }
 
+.send-button {
+    margin-top: 8%;
+}
+
+.col-5 input {
+    width: auto;
+    box-shadow: none;
+}
+
 /*--------------------Introduction*/
 
 .intro .smoking-disclaimer {
@@ -366,10 +380,6 @@ button {
     text-align: center;
 }
 
-.gallery .row {
-    margin: 0;
-}
-
 .column {
   -ms-flex: 25%;
   flex: 25%;
@@ -387,11 +397,6 @@ button {
 
 .quotes h2 {
     margin: 0 0 40px;
-}
-
-.quotes .row {
-    margin: 0;
-    padding: 0;
 }
 
 #white-space-quotes-girl {
@@ -422,27 +427,24 @@ blockquote {
 /*--------------------Contact page*/
 
 .contact {
-    background-color: #F2F2F2;
     margin: 5% 24%;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    justify-content: space-around;
 }
 
-.maps {
-     margin-left: 24%;
-     margin-right: 24%;
-
+.contact .col-md-6,
+.contact .col-12 {
+    text-align: center;
 }
 
-.form {
-    font-weight: 400;
-    margin: 5% 25%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+.contact-space-between {
+    margin-bottom: 20%;
+}
+
+.contact-bg-color {
     background-color: #F2F2F2;
 }
-
-.contact
 
 .contact a:hover {
     text-decoration: none;
@@ -451,13 +453,13 @@ blockquote {
 
 .contact-phone,
 .contact-email {
-    text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 .contact-phone a,
-.contact-email a {
+.contact-email a,
+.address a {
     color:#435159;
     transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -466,47 +468,62 @@ blockquote {
 }
 
 .contact-phone a:hover,
-.contact-email a:hover {
-    text-decoration: none;
-    font-weight: 400;
-    color: #ae5d57;
-}
-
-.address {
-    font-weight: 400;
-    margin: 5% 15%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-.address div {
-    text-align: center;
-}
-
-.address a {
-    color:#435159;
-    text-align: center;
-    transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
+.contact-email a:hover,
 .address a:hover {
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 500;
     color: #ae5d57;
 }
 
-.maps {
-    text-align: center;
+.maps img {
+    width: 100%;
+}
+
+.form {
+    padding-bottom: 8%;
 }
 
 form {
-    margin: auto 2%;
+    text-align: left;
 }
 
+form label {
+    margin-bottom: 0;
+    padding-left: 2%;
+}
 
+form input {
+    width: 95%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 4%;
+    box-shadow: 2px 2px 5px #435159;
+    border: 0;
+}
+
+form .row {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+form .row div:nth-child(2){
+    padding-right: 0;
+}
+
+#message {
+    margin: auto 2%;
+    width: 95%;
+    height: 150px;
+    box-shadow: 2px 2px 5px #435159;
+    border: 0;
+}
+
+.checked 
+
+.message p {
+    margin-left: 2%;
+}
 
 /*--------------------Footer*/
 
@@ -696,6 +713,10 @@ form {
 
     .packages-offer {
         padding: 3% 9%;
+    }
+
+    .contact {
+    margin: 5% auto;
     }
 
     .column {
