@@ -175,6 +175,16 @@ h4 {
     min-height: 300px;
 }
 
+.dellendistrict-hiking-map {
+    background: url("../images/dellendistrict-hiking2.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    padding: 0;
+    min-height: 300px;
+}
+
+
 .quotes-girl {
     background: url("../images/quotes-girl.jpg") no-repeat;
     background-size: cover;
@@ -391,6 +401,10 @@ button {
 }
 
 #disposition {
+    font-size: 0.7rem;
+}
+
+.image-copyright {
     font-size: 0.7rem;
 }
 
