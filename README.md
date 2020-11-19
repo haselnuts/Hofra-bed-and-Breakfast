@@ -120,6 +120,9 @@ On **mobile devices** a button **to the top** will be appearing on the bottom of
   which match the theme of the PowerPoint presentation provided by Jenny Gustafsson.
 - **TinyPNG**
   - This project uses **[TinyPNG](https://tinypng.com/)** to reduce the size of the images used on this website.
+- **CompressJPEG**
+  - This project uses **[CompressJPEG](https://compressjpeg.com/)** to reduce the size of the images used on this website.
+
 
 ## Changes made
  - **The barn** 2 packages with information and pricing were added
@@ -145,7 +148,8 @@ The original text was in swedish and provided by Jenny Gustafsson. Translation i
 
 #### Media
 Most images used on this website were provided by Jenny Gustafsson and Per Brodén.
-Additional images for the barn were provided by Peter Larsson.
+Additional images for The barn were provided by Peter Larsson.
+Additional images for Dellendistrict Wintertime were provided by Eva Larsson Södergren.
 The hero image for the Discover Dellenbygden page was provided by Nadine Schmidt, the developer of this website.
 
 ### Acknowledgements
