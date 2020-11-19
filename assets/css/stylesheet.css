@@ -89,7 +89,7 @@ h4 {
     height: 700px;
 }
 
-.hero-image-dellenbygden {
+.hero-image-dellendistrict {
     background: url("../images/hero-image-dellenbygden.jpg") no-repeat;
     background-size: cover;
     background-position: center;
@@ -159,6 +159,15 @@ h4 {
 
 .the-rooms-feature-red-room {
     background: url("../images/the-rooms-red-room.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    padding: 0;
+    min-height: 300px;
+}
+
+.dellendistrict-events {
+    background: url("../images/dellendistrict-delsbostamma.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     margin: 20px;
