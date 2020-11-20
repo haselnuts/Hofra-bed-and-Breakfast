@@ -389,18 +389,18 @@ button {
     line-height: 1.7;
 }
 
-#price {
+.price {
     text-align: center;
 }
 
-#price-tag {
+.price-tag {
     font-size: 1.5rem;
     font-weight: 500;
     padding-top: 2%;
     margin-bottom: 0;
 }
 
-#disposition {
+.disposition {
     font-size: 0.7rem;
 }
 
@@ -656,7 +656,7 @@ form .row div:nth-child(2) {
     .hero-image-welcome,
     .hero-image-the-rooms,
     .hero-image-the-barn,
-    .hero-image-dellenbygden,
+    .hero-image-dellendistrict,
     .hero-image-contact {
         height: 450px;
     }
@@ -704,7 +704,7 @@ form .row div:nth-child(2) {
     .hero-image-welcome,
     .hero-image-the-rooms,
     .hero-image-the-barn,
-    .hero-image-dellenbygden,
+    .hero-image-dellendistrict,
     .hero-image-contact {
         max-height: 350px;
         margin-top: 10px;
@@ -739,7 +739,7 @@ form .row div:nth-child(2) {
     font-size: 1rem;
     }
 
-    #price-tag {
+    .price-tag {
         font-size: 1.3rem;
     }
 
@@ -838,7 +838,7 @@ form .row div:nth-child(2) {
     .hero-image-welcome,
     .hero-image-the-rooms,
     .hero-image-the-barn,
-    .hero-image-dellenbygden,
+    .hero-image-dellendistrict,
     .hero-image-contact {
         max-height: 200px;
         margin-top: 10px;
@@ -936,7 +936,7 @@ form .row div:nth-child(2) {
     .hero-image-welcome,
     .hero-image-the-rooms,
     .hero-image-the-barn,
-    .hero-image-dellenbygden,
+    .hero-image-dellendistrict,
     .hero-image-contact {
         max-height: 150px;
         margin-top: 10px;
