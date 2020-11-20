@@ -12,7 +12,7 @@ intresting destinations and inviting images.
 
 This website will be my first and my friends gave me the opportunity to code a website for their first business. 
 There will be changes to this website in the future along with my learning progress. 
-I'm very excited and nervous at the same time. My biggest fear is this readme file.
+I'm very excited and nervous at the same time.
 
 #### The business goals of this website are
 - Provide information about the branches 
@@ -25,7 +25,7 @@ I'm very excited and nervous at the same time. My biggest fear is this readme fi
 - Easy to find contact information
 
 #### Future goals and features
-- Get companies to have their conferences at Hofra Bed & Breakfast
+- Get companies to have their conference at Hofra Bed & Breakfast
 - A feature for a second, much smaller barn will be added
 - The income from the B&B shall cover one persons yearly income
 
@@ -36,14 +36,14 @@ I'm very excited and nervous at the same time. My biggest fear is this readme fi
 
 #### Visitors to this website are searching for:
 - Intresting place to stay
-- A different place to celebrate their important day in live
+- A different place to celebrate their important day in life
 - Finding activities during their stay
 
 #### Wireframes mockups:
 - [Welcome](https://www.figma.com/file/MBrPn6xwBuE9RgPheqxibW/Hofra-Bed-%26-Breakfast?node-id=0%3A1)
 - [The rooms](https://www.figma.com/file/MBrPn6xwBuE9RgPheqxibW/Hofra-Bed-%26-Breakfast?node-id=42%3A45)
 - [The barn](https://www.figma.com/file/MBrPn6xwBuE9RgPheqxibW/Hofra-Bed-%26-Breakfast?node-id=2%3A24)
-- [Discover Dellenbygden](https://www.figma.com/file/MBrPn6xwBuE9RgPheqxibW/Hofra-Bed-%26-Breakfast?node-id=2%3A25)
+- [Dellendistrict](https://www.figma.com/file/MBrPn6xwBuE9RgPheqxibW/Hofra-Bed-%26-Breakfast?node-id=2%3A25)
 - [Contact](https://www.figma.com/file/MBrPn6xwBuE9RgPheqxibW/Hofra-Bed-%26-Breakfast?node-id=110%3A0)
 
 ## Features
@@ -55,13 +55,11 @@ Each page features its own welcome **hero image**.
 
 #### Welcome
 The page features a **hero image** of the inside of the courtyard, a warm welcome to Hofra Bed & Breakfast, **hero images**
- of the 3 **main features** with a link to each page and some reviews from guests. 
+ of the 3 **main features** with a link to each page and reviews from guests. 
 
 #### The rooms
-The page features a **hero image** of the suite, a description of the house, service, addtional fees and a **call to action button**
+The page features a **hero image** of the suite, a description of the house, service and a **call to action button**
 which guides the visitor to the contact page. 
-
-Each rum is featured with one **hero image** and a short description of the rum. When clicking on the hero image a **modal** opens with more images.
 
 #### The barn
 The page features a **hero image** showing styled tables ready for the festivity, a description of the barn, packages and prices, a gallery and a 
@@ -69,10 +67,10 @@ The page features a **hero image** showing styled tables ready for the festivity
 
 #### Dellendistrict
 The page features a **hero image** of a destination to visit, the aim of the page and 3 section. The 3 sections are diveded into
- **yearly recurrent events**, **destinations to visit** and **hikingtrails**.
+ **Events**, **Wintertime** and **Hiking**.
 
 #### Contact
-The page features a **hero image** birds-eye view of the farm, **contact informations**, a **map** linking to Google maps, travel description by bus and car and a 
+The page features a **hero image** birds-eye view of the farm, **contact informations**, a **map** linking to Google maps and a 
 **contact form** with a **send button**
 
 ### Existing features
@@ -85,11 +83,13 @@ to the **Welcome** page.
 
 **Social Icons** - Exist on **every page** and allows the potential guest to access the **social platforms**.
 
-**Call to Action Button** - Exist on on **The rooms** and **The barn** pages and guides the potential guest to the **contact page**.
+**Call to Action Button** - Exist on **The rooms** and **The barn** pages and guides the potential guest to the **contact page**.
+
+**Back to top button** will be appearing on the bottom of each page for smaller devices.
 
 **Welcome page** – Allows the potential guest to view what Hofra Bed & Breakfast offers.
 
-**The rooms page** – Allows the potential guest to view the rooms, services and pricing.
+**The rooms page** – Allows the potential guest to view the rooms and services.
 
 **The Barn page** – Allows the potential guest to view the different areas, packages and pricing.
 
@@ -103,8 +103,8 @@ to the **Welcome** page.
 current fonts.
 **Second barn** a feature for the much smaller barn will be added to The barn page. The smaller barn was not part of the original wireframe. This barn 
 could be used for smaller gatherings.
-**Modals** images for The rooms and Dellendistrict shall be shown in a modal when clicking on the images in the features.
-On **mobile devices** a button **to the top** will be appearing on the bottom of each page.
+**Modals** feature images for The rooms and Dellendistrict shall be shown in a modal with more information, or with hidden information due to 
+size of the screen.
 
 
 ## Technoligies used
@@ -148,12 +148,12 @@ The original text was in swedish and provided by Jenny Gustafsson. Translation i
 
 #### Media
 Most images used on this website were provided by Jenny Gustafsson and Per Brodén.
-Additional images for The barn were provided by Peter Larsson.
-Additional images for Dellendistrict Wintertime were provided by Eva Larsson Södergren.
-The hero image for the Discover Dellenbygden page was provided by Nadine Schmidt, the developer of this website.
+Additional images for **The barn** were provided by Peter Larsson.
+Additional images for **Dellendistrict Events** were provided by Eva Larsson Södergren.
+Image #4  for **Dellendistrict Wintertime** was provided by Fredrik Berg.
+The hero image for the **Dellendistrict** page was provided by Nadine Schmidt, the developer of this website.
 
 ### Acknowledgements
-
 README.md 
  - Structure taken from AJ Graves repository: portrait-artist
 
