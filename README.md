@@ -1,8 +1,8 @@
-<h1 align="center">
+<h1 text-align="center">
     <a href="https://github.com/haselnuts/Hofra-Bed-Breakfast" target="_blank"><img src="assets/images/logo.png"></a>
 </h1><a href="
 
-<div align="center">
+<div text-align="center">
 
 [View website in Github pages](https://github.com/haselnuts/Hofra-Bed-Breakfast)
 </div>
