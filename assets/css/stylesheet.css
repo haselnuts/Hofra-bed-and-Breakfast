@@ -284,7 +284,8 @@ nav .button-size-text {
     margin-right: 10px;  
 }
 
-.boka-button .btn {
+.boka-button .btn,
+.send-button .btn {
     background-color: #ae5d57;
     border-color: #ae5d57;
     color: #F2F2F2;
@@ -293,7 +294,8 @@ nav .button-size-text {
     font-weight: 600;
 }
 
-.boka-button .btn:hover {
+.boka-button .btn:hover,
+.send-button .btn:hover {
     background-color: #ae5d57;
     border-color: #ae5d57;
     color: #F2F2F2;
@@ -376,6 +378,7 @@ nav .button-size-text {
 .feature-space-around {
     margin: 8% 15% 4%;
 }
+
 
 .feature-space-between {
     margin: 100px 0;
@@ -768,6 +771,10 @@ form .row div:nth-child(2) {
         padding-right: 10%;
     }
 
+    .feature-space-index {
+    margin: 100px 0;
+    }
+
     .feature-space-packages {
         margin-top: 70px;
     }
@@ -942,6 +949,7 @@ form .row div:nth-child(2) {
     .footer-contact-social p {
         padding-top: 1rem;
     }
+
 }
 
 @media only screen and (max-width: 375px) {
