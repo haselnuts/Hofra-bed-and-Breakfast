@@ -132,15 +132,18 @@ size of the screen.
 **[problemsolving.md file](https://github.com/haselnuts/Hofra-Bed-Breakfast/blob/master/problemsolving.md)**.
 
 ## Testing
+- Testing information can be found in seperate 
+**[testing.md file](https://github.com/haselnuts/Hofra-Bed-Breakfast/blob/master/testing.md)**.
 
 ## Deployment
   1. Log into GitHub.
-  2. From the list of repositories select **haselnuts/Hofr-Bed-Breakfast**.
-  3. From the menu items below the navigation bar, select **Settings**.
-  4. Scoll down to **GitHub pages**.
-  5. Under **Source** click the dropdown menu labelled **None** and select **Master**.
-  6. When selecting **Save** ....
-  7.
+  2. From the list of repositories select **haselnuts/Hofr-Bed-Breakfast**
+  3. From the menu items below the navigation bar, select **Settings**
+  4. Scoll down to **GitHub pages**
+  5. Under **Source** click the dropdown menu labelled **None** and select **Master**
+  6. Select **Save** 
+  7. Reload the page
+  8. Follow the link after **Your site is published at**
 
 ## Credits
 #### Content
