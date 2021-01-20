@@ -316,22 +316,19 @@ nav .button-size-text {
     font-weight: 500;
 }
 
-.back-to-top-button {
+.back-to-top {
     background-color: #FCFAFA;
     border: 0;
     margin: 0;
     padding: 0;
+     text-align: right;
 }
 
-.back-to-top-button a {
+.back-to-top a {
     color: #435159;
 }
 
-.back-to-top {
-    text-align: right;
-}
-
-.back-to-top-button a:hover {
+.back-to-top a:hover {
     color: #ae5d57;
 }
 
