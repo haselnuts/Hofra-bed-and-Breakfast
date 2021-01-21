@@ -67,6 +67,7 @@ made and issue appeared during this process.
   3. Welcome/ Introduction
    - A warm welcome to Hofra Bed & Breakfast
      1. Reduce and expand width of window to confirm that the text in this section responds correctly and looks good on all device widths.
+     2. Check content for spelling and grammatical errors. *Checked and errors corrected.*
 
   4. Features
    - 3 **main features** with a link to each page 
@@ -76,6 +77,7 @@ made and issue appeared during this process.
 
   5. Guest reviews
      1. Reduce and expand width of window to confirm that the review section is responsive and changes the position from side by side to underneath.
+     2. Check content for spelling or grammatical errors. *Checked and errors corrected.*
 
   6. Back to top 
    - Will be appearing on the bottom of each page for smaller devices.
@@ -103,6 +105,7 @@ made and issue appeared during this process.
   3. Introduction
    - A description of the B&B house and services
      1. Reduce and expand width of window to confirm that the text in this section responds correctly and looks good on all device widths.
+     2. Check content for spelling and grammatical errors. *Checked and errors corrected.*
 
   4. Features
    - The **3 rooms** featured with a picture and a short description
@@ -135,6 +138,7 @@ made and issue appeared during this process.
   3. Introduction
    - A description of the barn
      1. Reduce and expand width of window to confirm that the text in this section responds correctly and looks good on all device widths.
+     2. Check content for spelling and grammatical errors. *Checked and errors corrected.*
 
   4. The gallery
    - A gallery with images of the barn
@@ -168,6 +172,7 @@ made and issue appeared during this process.
   3. Introduction
    - A description of the dellendistrict
      1. Reduce and expand width of window to confirm that the text in this section responds correctly and looks good on all device widths.
+     2. Check content for spelling and grammatical errors. *Checked and errors corrected.*
 
   5. Features
    - Events, Hiking and Winter time
