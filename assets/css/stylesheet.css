@@ -452,7 +452,11 @@ nav .button-size-text {
   padding: 0 4px;
 }
 
-.column img,
+.column img {
+  vertical-align: middle;
+  width: 100%;
+}
+
 .column-wintertime img {
   margin-top: 20px;
   vertical-align: middle;
