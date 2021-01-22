@@ -1,12 +1,14 @@
-<h1 text-align="center">
+<img align="center">
     <a href="https://github.com/haselnuts/Hofra-Bed-Breakfast" target="_blank"><img src="assets/images/logo.png"></a>
-</h1><a href="
 
-<div text-align="center">
+<h1 align="center"> Hofra Bed and Breakfast </h1>
+
+<div align="center">
 
 [View website in Github pages](https://github.com/haselnuts/Hofra-Bed-Breakfast)
 </div>
 
+## Introduction
 A genuine website for my friends Hofra Bed & Breakfast. The website features a welcome page, information on the rooms, the barn, pricing, 
 interesting destinations and inviting images.
 
@@ -14,32 +16,33 @@ This website will be my first and my friends gave me the opportunity to code a w
 There will be changes to this website in the future along with my learning progress. 
 I'm very excited and nervous at the same time.
 
-#### The business goals of this website are
+## The Business
+### The business goals of this website are
 - Provide information about the branches 
 - Provide interesting destination nearby, Dellendistrict shall be the final destination
 - Provide warm and inviting images
 
-#### Customer goals of this website
+### Customer goals of this website
 - Guest shall feel welcomed
 - Guest shall find pinpoint information on each branch
 - Easy to find contact information
 
-#### Future goals and features
+### Future goals and features
 - Get companies to have their conference at Hofra Bed & Breakfast
 - A feature for a second, much smaller barn will be added
 - The income from the B&B shall cover one person's yearly income
 
 ## UX
-#### The ideal guest for this business is:
+### The ideal guest for this business is:
 - Wants to stay without any distractions
 - Wants to stay for a longer time not just one night
 
-#### Visitors to this website are searching for:
+### Visitors to this website are searching for:
 - Interesting place to stay
 - A different place to celebrate their important day in life
 - Finding activities during their stay
 
-#### Wireframes mockups:
+### Wireframes mockups:
 - [Welcome](https://www.figma.com/file/MBrPn6xwBuE9RgPheqxibW/Hofra-Bed-%26-Breakfast?node-id=0%3A1)
 - [The rooms](https://www.figma.com/file/MBrPn6xwBuE9RgPheqxibW/Hofra-Bed-%26-Breakfast?node-id=42%3A45)
 - [The barn](https://www.figma.com/file/MBrPn6xwBuE9RgPheqxibW/Hofra-Bed-%26-Breakfast?node-id=2%3A24)
@@ -53,27 +56,27 @@ The **footer** features an **address** linking to Google maps, **telephone numbe
 
 Each page features its own welcome **hero image**.
 
-#### Welcome
+### Welcome
 The page features a **hero image** of the inside of the courtyard, a warm welcome to Hofra Bed & Breakfast, **hero images**
  of the 3 **main features** with a link to each page and reviews from guests. 
 
-#### The rooms
+### The rooms
 The page features a **hero image** of the suite, a description of the house, service and a **call-to-action button**
 which guides the visitor to the contact page. 
 
-#### The barn
+### The barn
 The page features a **hero image** showing styled tables ready for the festivity, a description of the barn, packages and prices, a gallery and a 
 **call-to-action button** which guides the potential guest to the contact page. 
 
-#### Dellendistrict
+### Dellendistrict
 The page features a **hero image** of a destination to visit, the aim of the page and 3 section. The 3 sections are divided into
  **Events**, **Wintertime** and **Hiking**.
 
-#### Contact
+### Contact
 The page features a **hero image** birds-eye view of the farm, **contact information**, a **map** linking to Google maps and a 
 **contact form** with a **send button**
 
-### Existing features
+## Existing features
 **Logo** - Exists in the header and the footer of **every page** and allows the potential guest to easily navigate back 
 to the **Welcome** page.
 
@@ -97,7 +100,7 @@ to the **Welcome** page.
 
 **Contact Form** - Allows potential guest to get in contact.
 
-### Features to Implement in future
+## Features to Implement in future
 **Slide show** of the hero image on each page. – additional JavaScript knowledge needed.
 **Fonts** Hofra Bed & Breakfast wants to use different fonts, those were not available at this time but are similar to the 
 current fonts.
@@ -146,10 +149,10 @@ size of the screen.
   8. Follow the link after **Your site is published at**
 
 ## Credits
-#### Content
+### Content
 The original text was in swedish and provided by Jenny Gustafsson. Translation into English was done by the developer. 
 
-#### Media
+### Media
 Most images used on this website were provided by Jenny Gustafsson and Per Brodén.
 Additional images for **The barn** were provided by Peter Larsson.
 Additional images for **Dellendistrict Events** were provided by Eva Larsson Södergren.
