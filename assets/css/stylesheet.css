@@ -299,6 +299,10 @@ nav .button-size-text {
     font-weight: 600;
 }
 
+.send-button .btn {
+    width: fit-content;
+}
+
 .boka-button .btn:hover,
 .send-button .btn:hover {
     background-color: #ae5d57;
@@ -340,10 +344,6 @@ nav .button-size-text {
 .boka-button {
     margin-bottom: 100px;
     text-align: center;
-}
-
-.send-button {
-    margin-top: 8%;
 }
 
 .col-5 input {
@@ -941,6 +941,11 @@ form .row div:nth-child(2) {
     .form {
         font-size: 0.7rem;
         font-weight: 500;
+    }
+
+    .send-button {
+        margin-top: 8%;
+        text-align: center;
     }
     
     .send-button .btn {
