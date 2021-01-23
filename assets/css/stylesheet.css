@@ -57,6 +57,11 @@ h4 {
     padding: 0;
 }
 
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 /*--------------------Images*/
 
 .hero-image-welcome {
@@ -450,6 +455,7 @@ nav .button-size-text {
   flex: 50%;
   max-width: 50%;
   padding: 0 4px;
+  margin-top: 20px;
 }
 
 .column img {
@@ -458,9 +464,12 @@ nav .button-size-text {
 }
 
 .column-wintertime img {
-  margin-top: 20px;
   vertical-align: middle;
   width: 100%;
+}
+
+figure {
+    margin-bottom: 0.5rem;
 }
 
 /*--------------------Quotes*/
@@ -731,7 +740,7 @@ form .row div:nth-child(2) {
 
     .dellendistrict-events {
         margin-bottom: 0px;
-}
+    }
 
     h1 {
         font-size: 3.0rem;
@@ -931,6 +940,7 @@ form .row div:nth-child(2) {
 
     .form {
         font-size: 0.7rem;
+        font-weight: 500;
     }
     
     .send-button .btn {
