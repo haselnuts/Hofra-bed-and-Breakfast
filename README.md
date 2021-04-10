@@ -9,12 +9,15 @@
 </div>
 
 ## Introduction
+During my eductation to be a programmer I had to commit different MileStone Projects. The first project was to show my skills in HTML and CSS. 
+This project was called [*Hofra-Bed-Breakfast*](https://github.com/haselnuts/Hofra-Bed-Breakfast). 
+Now I attempt to use Flask and Python to simplify the structure of this project. The project should still show:
+
 A genuine website for my friends Hofra Bed & Breakfast. The website features a welcome page, information on the rooms, the barn, pricing, 
 interesting destinations and inviting images.
 
-This website will be my first and my friends gave me the opportunity to code a website for their first business. 
 There will be changes to this website in the future along with my learning progress. 
-I'm very excited and nervous at the same time.
+I'm still excited to provide a website for my friends business but due my second project which included JavaScript I'm even more nervous today than I was then.
 
 ## The Business
 ### The business goals of this website are
